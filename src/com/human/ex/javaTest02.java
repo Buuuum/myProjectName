@@ -1,6 +1,5 @@
 package com.human.ex;
 
-import java.util.Scanner;
 
 public class javaTest02 {
 	public static void main(String[] args) {

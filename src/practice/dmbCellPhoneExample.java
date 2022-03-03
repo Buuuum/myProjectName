@@ -22,5 +22,7 @@ public class dmbCellPhoneExample {
 		dmbCellPhone.changeChannelDmB(30);
 		dmbCellPhone.turnOffDmb();
 		dmbCellPhone.powerOff();
+		
+		dmbCellPhone.turnOnDmb();
 	}
 }

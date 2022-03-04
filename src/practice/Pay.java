@@ -8,8 +8,8 @@ public class Pay {
 			System.out.println("ERROR : 제한 근무시간 초과.");
 		}else if(hours>40) {
 			double more = 0;
-			more = (hours-40)*basePay*1.5;
-			System.out.println("$ "+((basePay*(hours-(hours-40)))+more));
+			more = (basePay*(hours-(hours-40)))+(hours-40)*basePay*1.5;
+			System.out.println("$ "+more);
 		}else if(basePay<8.00) {
 			System.out.println("ERROR : 최저시급 불이행");
 		}else {		

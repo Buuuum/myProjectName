@@ -50,6 +50,24 @@ public class JavaTest03 {
 //		System.out.println('a');
 		
 		
+//		int a=3,b=4;
+//		a=(++a)*2;
+//		b=(b--)*3;
+//		System.out.println(a);
+//		System.out.println(b);
+		
+		
+		int a=5;
+		System.out.println(a); //5
+		++a;   //6
+		System.out.println(a); //6
+		a++;   //6
+		System.out.println(a); //7
+		a--;   //7
+		System.out.println(a); //6
+		--a;   //5
+		System.out.println(a); //5
+		
 		
 	}
 }

@@ -1,9 +1,9 @@
 package practice;
 
-public class dmbCellPhoneExample {
+public class DmbCellPhoneExample {
 	public static void main(String[] args) {
 		
-		dmbCellPhone dmbCellPhone = new dmbCellPhone("아이폰", "스페이스그레이", 10);
+		DmbCellPhone dmbCellPhone = new DmbCellPhone("아이폰", "스페이스그레이", 10);
 		
 		
 		System.out.println("모델 : " + dmbCellPhone.model);

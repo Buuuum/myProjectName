@@ -1,9 +1,9 @@
 package practice;
 
-public class sportCarEx {
+public class SportCarEx {
 	public static void main(String[] args) {
 		
-		sportsCar sc = new sportsCar("Ferari", "Yellow", "Turbo Mode");
+		SportsCar sc = new SportsCar("Ferari", "Yellow", "Turbo Mode");
 		
 		System.out.println("Model : "+sc.model);
 		System.out.println("Color : "+sc.color);

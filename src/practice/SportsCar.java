@@ -1,10 +1,10 @@
 package practice;
 
-public class sportsCar extends car{
+public class SportsCar extends Car{
 	
 	String mode;
 	
-	sportsCar(String model, String color, String mode){
+	SportsCar(String model, String color, String mode){
 		this.model = model;
 		this.color = color;
 		this.mode = mode;

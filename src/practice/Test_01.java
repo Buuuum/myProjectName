@@ -1,6 +1,6 @@
 package practice;
 
-public class test_01 {
+public class Test_01 {
 	
 	public void plus(int a,int b) {
 		

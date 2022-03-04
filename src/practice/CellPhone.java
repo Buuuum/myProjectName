@@ -1,6 +1,6 @@
 package practice;
 
-public class cellPhone {
+public class CellPhone {
 	
 	String model;
 	String color;

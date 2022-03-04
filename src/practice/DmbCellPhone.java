@@ -1,11 +1,11 @@
 package practice;
 
-public class dmbCellPhone extends cellPhone{
+public class DmbCellPhone extends CellPhone{
 
 	int channel;
 	
 	
-	dmbCellPhone(String model, String color, int channel){
+	DmbCellPhone(String model, String color, int channel){
 		this.model = model;
 		this.color = color;
 		this.channel = channel;

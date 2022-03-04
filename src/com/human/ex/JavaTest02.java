@@ -1,7 +1,7 @@
 package com.human.ex;
 
 
-public class javaTest02 {
+public class JavaTest02 {
 	public static void main(String[] args) {
 
 

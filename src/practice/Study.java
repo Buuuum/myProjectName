@@ -46,26 +46,7 @@ public class Study {
 		
 
 		
-//		버스카드 나이인식
-//		public static String getRole(int age) {
-//			if(age>18) {
-//				System.out.println("성인");
-//			}else if(age>13) {
-//				System.out.println("청소년");
-//			}else if(age>6) {	
-//				System.out.println("어린이");
-//			}else {
-//				System.out.println("유아");
-//			}
-//			return "";
-//			}
-//		
-//		public static void main(String[] args) {
-//			
-//			Scanner input = new Scanner(System.in);
-//			int age = input.nextInt();
-//			String role = getRole(age);
-//			System.out.println(role);		
+
 		
 		
 		

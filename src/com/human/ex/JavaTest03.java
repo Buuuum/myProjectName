@@ -33,11 +33,23 @@ public class JavaTest03 {
 		
 		
 		
-		int a = 5;
-		int b = 10;
+//		int a = 5;
+//		int b = 10;
+//		
+//		a += 3;
+//		
+//		System.out.println(a+b);
 		
-		a += 3;
 		
-		System.out.println(a+b);
+		
+//		System.out.println(10);
+//		System.out.println(1.);
+//		System.out.println(6F);
+//		System.out.println(23d);
+//		System.out.println(14E10);
+//		System.out.println('a');
+		
+		
+		
 	}
 }

@@ -18,16 +18,3 @@ public class ArraySum {
 		System.out.printf("총합 : %d\n", sum(arr));
 	}
 }
-
-
-
-//int[] arr = new int[10];
-//for(int i=0; i<arr.length; i++) {
-//	arr[i] = i * i;
-//}
-//int sum = 0;
-//for(int j=0; j<arr.length; j++) {
-//	sum += arr[j];
-//}
-//System.out.println(sum);
-//System.out.printf("총합 : %d\n", sum(arr));

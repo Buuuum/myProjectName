@@ -16,5 +16,17 @@ public class ArraySum {
 			arr[i] = i * i;
 		}
 		System.out.printf("총합 : %d\n", sum(arr));
+		
+		
+		
+//		sum 함수 없이 총합 구하기
+//		int[] car = new int[8];
+//		int i = 0;		
+//		int sum = 0;
+//		for(i=0;i<car.length;i++) {
+//			car[i] = i*i;
+//			sum+=car[i];
+//		}
+//		System.out.print(sum);
 	}
 }

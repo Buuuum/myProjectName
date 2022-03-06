@@ -66,8 +66,6 @@ public class Study {
 //			System.out.println();
 //		}
 
-		
-		
-
+	
 	}
 }

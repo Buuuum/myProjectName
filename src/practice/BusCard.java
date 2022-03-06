@@ -21,6 +21,8 @@ public class BusCard {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
+		
+		System.out.println("나이를 입력하세요.");
 		int age = input.nextInt();
 		String role = getRole(age);
 		System.out.println(role);		

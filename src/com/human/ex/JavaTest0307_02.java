@@ -101,16 +101,15 @@ public class JavaTest0307_02 {
 //		System.out.println("상장 부피 : " + result);
 		
 //		문제10)
-		int box = 12000;
-		int p_price = 1000;
-		
-		System.out.print("몇 박스 구매? : ");
-		int a = sc.nextInt();
-		System.out.print("몇 자루 구매? : ");
-		int b = sc.nextInt();
-		int result = (box*a)+(p_price*b);
-		System.out.println("총 가격 : " + result + "원");
-		
+//		int box = 12000;
+//		int p_price = 1000;
+//		
+//		System.out.print("몇 박스 구매? : ");
+//		int a = sc.nextInt();
+//		System.out.print("몇 자루 구매? : ");
+//		int b = sc.nextInt();
+//		int result = (box*a)+(p_price*b);
+//		System.out.println("총 가격 : " + result + "원");
 		
 	}
 }

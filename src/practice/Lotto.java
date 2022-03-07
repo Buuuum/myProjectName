@@ -22,20 +22,7 @@ public class Lotto {
 		
 		boolean[] isPicked = new boolean[46];
 		int[] numbers = new int[6];
-		for (int i = 0; i < numbers.length; i++) {
-		    // 임시번호 생성
-		    int tempNum = generateNumber();
-		    // 중복된 수가 아니라면
-		    if (isPicked[tempNum] == false) {
-		        // 뽑았다고 체크
-		        isPicked[tempNum] = true;
-		        numbers[i] = tempNum;
-		    }
-		}
-		Arrays.sort(numbers);
-		for (int n : numbers)
-		    System.out.printf("%d ", n);
-	
+
 		for (int i = 0; i < numbers.length; i++) {
 		    // 무한 반복!
 		    while (true) {
@@ -52,6 +39,10 @@ public class Lotto {
 		    }
 		}
 
+		Arrays.sort(numbers);
+		for (int n : numbers)
+			System.out.printf("%d ", n);
+		
 		
 	}
 }

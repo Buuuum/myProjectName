@@ -1,6 +1,8 @@
 package com.human.ex;
 
-public class JavaTest0307 {
+import java.util.Scanner;
+
+public class JavaTest0307_01 {
 	
 	public static void main(String[] args) {
 		
@@ -88,6 +90,23 @@ public class JavaTest0307 {
 		
 		
 		
+//		int a1 = (int)10000000000l;
+//		int a2 = (int)12.24;
+//		float a3 = (int)23.5;
+//		
+//		System.out.println(a1);
+//		System.out.println(a2);
+//		System.out.println(a3);
+		
+//		byte a1 = 110;
+//		long a2 = 124;
+//		double a3 = 23.5f;
+//		
+//		System.out.println(a1);
+//		System.out.println(a2);
+//		System.out.println(a3);
+
+		
 		
 //		문제1)
 //		boolean b = true;
@@ -96,8 +115,8 @@ public class JavaTest0307 {
 //		char c='a';
 //		float f=1.234;  ;앞에 f가 빠짐.
 		
-//		short s2=s+c;   c는 문자형이라 연산 안됨.
-//		short s3=s+s;   s+s는 값이 정수형이라 short 형변환 필요.
+//		short s2=s+c;   c는 문자형이라 연산 안됨. int로 변환
+//		short s3=s+s;   s+s는 값이 정수값이라 int로 변환.
 //		char c2=c+s;    문자형은 변수들의 연산 불가.
 //		int i2=c+s;
 //		int i3=b+i;	    boolean형과 정수형 연산 불가.
@@ -162,7 +181,6 @@ public class JavaTest0307 {
 //		10, 012
 //		11, 0xB, 013
 
-
-	
+		
 	}
 }

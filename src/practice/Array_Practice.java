@@ -52,6 +52,7 @@ public class Array_Practice {
 		a[2]=a[0]+a[1];
 		a[3]=a[0]+a[1]+a[2];
 		int sum = a[0]+a[1]+a[2]+a[3];
+		sum = sum/5;
 		System.out.println(sum);
 		
 	}

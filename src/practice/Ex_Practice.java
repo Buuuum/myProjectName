@@ -1,7 +1,7 @@
 package practice;
 
 
-public class Study {
+public class Ex_Practice {
 	
 	
 	public static void main(String[] args) {

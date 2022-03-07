@@ -24,6 +24,29 @@ public class Array_Practice {
 		
 		
 		
+//		int[] arr = new int[]{1,2,3,4,5};
+//	
+//		
+//		for(int i=0; i<arr.length; i++) {
+//			System.out.println(arr[i]);
+//		}
+//		for(int n : arr) {
+//			System.out.println(n);
+//		}
 
+		
+//		int[] arr = new int[5];
+//		int i=0;
+//		int sum=0;
+//		int a=0;
+//		for(i=0; i<arr.length; i++) {
+//			arr[i] = i;
+//			sum += arr[i];
+//		}
+//		a = sum/5;
+//		System.out.println(a);
+		
+		
+	
 	}
 }

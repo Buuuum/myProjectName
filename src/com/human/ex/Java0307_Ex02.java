@@ -2,17 +2,10 @@ package com.human.ex;
 
 import java.util.Scanner;
 
-public class JavaTest0307_02 {
+public class Java0307_Ex02 {
 
 	
 	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-		
-//		System.out.print("숫자입력 : ");
-//		int a = sc.nextInt();
-//		System.out.println(a);
-		
 		
 		
 		
@@ -92,23 +85,23 @@ public class JavaTest0307_02 {
 		
 //		문제9)
 //		System.out.print("상장의 가로 : ");
-//		int a = sc.nextInt();
+//		double a = Double.parseDouble(sc.nextLine());
 //		System.out.print("상장의 세로 : ");
-//		int b = sc.nextInt();
+//		double b = Double.parseDouble(sc.nextLine());
 //		System.out.print("상장의 높이 : ");
-//		int c = sc.nextInt();
-//		int result = a*b*c;
+//		double c = Double.parseDouble(sc.nextLine());
+//		double result = a*b*c;
 //		System.out.println("상장 부피 : " + result);
 		
 //		문제10)
-//		int box = 12000;
-//		int p_price = 1000;
+//		int b_p = 12000;
+//		int p_p = 1000;
 //		
 //		System.out.print("몇 박스 구매? : ");
 //		int a = sc.nextInt();
 //		System.out.print("몇 자루 구매? : ");
 //		int b = sc.nextInt();
-//		int result = (box*a)+(p_price*b);
+//		int result = (b_p*a)+(p_p*b);
 //		System.out.println("총 가격 : " + result + "원");
 		
 	}

@@ -10,23 +10,25 @@ public class Array_Practice {
 //		String[] names = new String[3];
 //		int size = names.length;
 //
-//		Scanner put = new Scanner(System.in);
+//		Scanner sc = new Scanner(System.in);
 //
 //		for(int i=0; i<size; i++){
 //			System.out.print("이름을 입력하세요. ");
-//			names[i] = put.next();            
+//			names[i] = sc.next();            
 //		}
-//
-//		for(int i=0; i<size; i++){
-//
-//			System.out.println("이름: " +names[i]);
-//		}
-		
-		
-		
-//		int[] arr = new int[]{1,2,3,4,5};
-//	
 //		
+//		for(String n : names) {
+//			System.out.println("이름 : "+n);
+//		}
+//			
+//		for(int n=0; n<size; n++){
+//			System.out.println("이름: " +names[n]);
+//		}
+		
+		
+		
+//		int[] arr = {1,2,3,4,5};
+//	
 //		for(int i=0; i<arr.length; i++) {
 //			System.out.println(arr[i]);
 //		}
@@ -34,6 +36,7 @@ public class Array_Practice {
 //			System.out.println(n);
 //		}
 
+		
 		
 //		int[] arr = new int[5];
 //		int i=0;
@@ -47,13 +50,25 @@ public class Array_Practice {
 //		System.out.println(a);
 		
 		
-		int[] a = {5,2,3,0};
-		a[1] = a[1]+4;
-		a[2]=a[0]+a[1];
-		a[3]=a[0]+a[1]+a[2];
-		int sum = a[0]+a[1]+a[2]+a[3];
-		sum = sum/5;
-		System.out.println(sum);
+		
+//		int[] a = {5,2,3,0};
+//		a[1] = a[1]+4;
+//		a[2]=a[0]+a[1];
+//		a[3]=a[0]+a[1]+a[2];
+//		int sum = a[0]+a[1]+a[2]+a[3];
+//		sum = sum/5;
+//		System.out.println(sum);
+		
+		
+//		int a[] = {1,2,3,4,5};
+//		int b = 1;
+//		a[0] = a[b];
+//		for(int i : a) {
+//			System.out.println(i);
+//		}
+		
+		
 		
 	}
+
 }

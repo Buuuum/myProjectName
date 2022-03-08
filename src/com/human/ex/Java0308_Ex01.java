@@ -57,6 +57,6 @@ public class Java0308_Ex01 {
 //
 //		System.out.println(String.format("두 점의 거리는 : %f", result));
 		
+		
 	}
-	
 }

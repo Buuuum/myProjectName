@@ -15,17 +15,19 @@ public class TreeEx {
 		mango.owner.age = 32;
 		mango.owner.PhoneNum = "010-2345-1658";
 
-		System.out.println("나무이름 : " + mango.name);
-		System.out.println("가격 : " + mango.price + "원");
-		System.out.println("키운 시간 : " + mango.growTime + "h");
-		System.out.println("난이도 : " + mango.difficulty);
-		System.out.println("그루 수 : " + mango.amount);
-		System.out.println("최대 그루 수 : " + mango.maxAmount);
-		System.out.println("주인 이름 : " + mango.owner.name);
-		System.out.println("주인 나이 : " + mango.owner.age + "세");
-		System.out.println("주인 번호 : " + mango.owner.PhoneNum);
-		System.out.println();
+		mango.treeInfo();
+		mango.owner.ownerInfo();
 		
+//		System.out.println("나무이름 : " + mango.name);
+//		System.out.println("가격 : " + mango.price + "원");
+//		System.out.println("키운 시간 : " + mango.growTime + "h");
+//		System.out.println("난이도 : " + mango.difficulty);
+//		System.out.println("그루 수 : " + mango.amount);
+//		System.out.println("최대 그루 수 : " + mango.maxAmount);
+//		System.out.println("주인 이름 : " + mango.owner.name);
+//		System.out.println("주인 나이 : " + mango.owner.age + "세");
+//		System.out.println("주인 번호 : " + mango.owner.PhoneNum);
+//		System.out.println();
 
 		
 		Tree papaya = new Tree();
@@ -35,17 +37,23 @@ public class TreeEx {
 		papaya.difficulty = 6;
 		papaya.amount = 6;
 		papaya.maxAmount = 50;
-
-		System.out.println("나무이름 : " + papaya.name);
-		System.out.println("가격 : " + papaya.price + "원");
-		System.out.println("키운 시간 : " + papaya.growTime + "h");
-		System.out.println("난이도 : " + papaya.difficulty);
-		System.out.println("그루 수 : " + papaya.amount);
-		System.out.println("최대 그루 수 : " + papaya.maxAmount);
-		System.out.println("주인 이름 : " + papaya.owner.name);
-		System.out.println("주인 나이 : " + papaya.owner.age + "세");
-		System.out.println("주인 번호 : " + papaya.owner.PhoneNum);
-		System.out.println();
+		papaya.owner.name = "김철수";
+		papaya.owner.age = 27;
+		papaya.owner.PhoneNum = "010-4313-4864";
+		
+		papaya.treeInfo();
+		papaya.owner.ownerInfo();
+		
+//		System.out.println("나무이름 : " + papaya.name);
+//		System.out.println("가격 : " + papaya.price + "원");
+//		System.out.println("키운 시간 : " + papaya.growTime + "h");
+//		System.out.println("난이도 : " + papaya.difficulty);
+//		System.out.println("그루 수 : " + papaya.amount);
+//		System.out.println("최대 그루 수 : " + papaya.maxAmount);
+//		System.out.println("주인 이름 : " + papaya.owner.name);
+//		System.out.println("주인 나이 : " + papaya.owner.age + "세");
+//		System.out.println("주인 번호 : " + papaya.owner.PhoneNum);
+//		System.out.println();
 
 
 		Tree bananaPalm = new Tree();
@@ -55,17 +63,23 @@ public class TreeEx {
 		bananaPalm.difficulty = 5;
 		bananaPalm.amount = 7;
 		bananaPalm.maxAmount = 50;
+		bananaPalm.owner.name = "신짱구";
+		bananaPalm.owner.age = 20;
+		bananaPalm.owner.PhoneNum = "010-0488-3485";
+		
+		bananaPalm.treeInfo();
+		bananaPalm.owner.ownerInfo();
 
-		System.out.println("나무이름 : " + bananaPalm.name);
-		System.out.println("가격 : " + bananaPalm.price + "원");
-		System.out.println("키운 시간 : " + bananaPalm.growTime + "h");
-		System.out.println("난이도 : " + bananaPalm.difficulty);
-		System.out.println("그루 수 : " + bananaPalm.amount);
-		System.out.println("최대 그루 수 : " + bananaPalm.maxAmount);
-		System.out.println("주인 이름 : " + bananaPalm.owner.name);
-		System.out.println("주인 나이 : " + bananaPalm.owner.age + "세");
-		System.out.println("주인 번호 : " + bananaPalm.owner.PhoneNum);
-		System.out.println();
+//		System.out.println("나무이름 : " + bananaPalm.name);
+//		System.out.println("가격 : " + bananaPalm.price + "원");
+//		System.out.println("키운 시간 : " + bananaPalm.growTime + "h");
+//		System.out.println("난이도 : " + bananaPalm.difficulty);
+//		System.out.println("그루 수 : " + bananaPalm.amount);
+//		System.out.println("최대 그루 수 : " + bananaPalm.maxAmount);
+//		System.out.println("주인 이름 : " + bananaPalm.owner.name);
+//		System.out.println("주인 나이 : " + bananaPalm.owner.age + "세");
+//		System.out.println("주인 번호 : " + bananaPalm.owner.PhoneNum);
+//		System.out.println();
 
 		
 		Tree lemon = new Tree();
@@ -75,17 +89,23 @@ public class TreeEx {
 		lemon.difficulty = 8;
 		lemon.amount = 1;
 		lemon.maxAmount = 50;
-
-		System.out.println("나무 이름 : " + lemon.name);
-		System.out.println("가격 : " + lemon.price + "원");
-		System.out.println("키운 시간 : " + lemon.growTime + "h");
-		System.out.println("난이도 : " + lemon.difficulty);
-		System.out.println("그루 수 : " + lemon.amount);
-		System.out.println("최대 그루 수 : " + lemon.maxAmount);
-		System.out.println("주인 이름 : " + lemon.owner.name);
-		System.out.println("주인 나이 : " + lemon.owner.age + "세");
-		System.out.println("주인 번호 : " + lemon.owner.PhoneNum);
-		System.out.println();
+		lemon.owner.name = "이석훈";
+		lemon.owner.age = 35;
+		lemon.owner.PhoneNum = "010-7455-9615";
+		
+		lemon.treeInfo();
+		lemon.owner.ownerInfo();
+		
+//		System.out.println("나무 이름 : " + lemon.name);
+//		System.out.println("가격 : " + lemon.price + "원");
+//		System.out.println("키운 시간 : " + lemon.growTime + "h");
+//		System.out.println("난이도 : " + lemon.difficulty);
+//		System.out.println("그루 수 : " + lemon.amount);
+//		System.out.println("최대 그루 수 : " + lemon.maxAmount);
+//		System.out.println("주인 이름 : " + lemon.owner.name);
+//		System.out.println("주인 나이 : " + lemon.owner.age + "세");
+//		System.out.println("주인 번호 : " + lemon.owner.PhoneNum);
+//		System.out.println();
 
 
 	}

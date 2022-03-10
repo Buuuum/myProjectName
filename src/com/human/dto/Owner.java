@@ -8,6 +8,6 @@ public class Owner {
 
 	
 	void ownerInfo() {
-		System.out.println("이름 : " + name + "\n나이 : " + age + "세\n전화번호 : " + PhoneNum + "\n");
+		System.out.println("주인 이름 : " + name + "\n주인 나이 : " + age + "세\n주인 전화번호 : " + PhoneNum + "\n");
 	}
 }

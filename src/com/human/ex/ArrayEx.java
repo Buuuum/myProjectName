@@ -49,9 +49,9 @@ public class ArrayEx {
 //		int[] arr = new int[10];
 //		int a = 0;
 //
-//		for (int i=1; i<=20; i++)
+//		for(int i=1; i<=20; i++)
 //		{
-//			if (i%2==0)
+//			if(i%2==0)
 //			{
 //				arr[a] = i;
 //				a++;
@@ -61,6 +61,17 @@ public class ArrayEx {
 //			System.out.print(arr[j]+" ");
 //		}
 
+		
+//		문제4)
+//		int[] arr = new int[10];
+//		
+//		for(int i=0; i<arr.length; i++) {
+//			arr[i] = i;
+//			if(i%2==1) {
+//				System.out.println(arr[i]);
+//			}
+//		}
+		
 		
 	}
 

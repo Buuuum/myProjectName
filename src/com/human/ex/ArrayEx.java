@@ -63,14 +63,14 @@ public class ArrayEx {
 
 		
 //		문제4)
-//		int[] arr = new int[10];
-//		
-//		for(int i=0; i<arr.length; i++) {
-//			arr[i] = i;
-//			if(i%2==1) {
-//				System.out.println(arr[i]);
-//			}
-//		}
+		int[] arr = new int[10];
+		
+		for(int i=0; i<arr.length; i++) {
+			arr[i] = i;
+			if(i%2==1) {
+				System.out.println(arr[i]);
+			}
+		}
 		
 		
 	}

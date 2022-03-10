@@ -110,5 +110,6 @@ public class TreeEx {
 		
 		Tree apple = new Tree("apple", 600, 4, 4, 7, 50, "홍길동", 28, "010-1351-6433");
 		apple.treeInfo();
+		apple.owner.ownerInfo();
 	}
 }

@@ -1,22 +1,22 @@
 package com.human.dto;
 
-public class Car extends Tire {
+public class Car {
 
 	String model;
 	String color;
 	String company;
 	int maxSpeed;
+	Tire tire = new Tire();
 
 	public Car(String model, String color, String company, int maxSpeed, String tireCompany, int price,
 			int dis_driven) {
-		super();
 		this.model = model;
 		this.color = color;
 		this.company = company;
 		this.maxSpeed = maxSpeed;
-		this.tireCompany = tireCompany;
-		this.price = price;
-		this.disDriven = dis_driven;
+		this.tire.tireCompany = tireCompany;
+		this.tire.price = price;
+		this.tire.disDriven = dis_driven;
 	}
 
 	void run() {

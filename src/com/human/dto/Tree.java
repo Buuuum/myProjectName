@@ -1,6 +1,6 @@
 package com.human.dto;
 
-public class Tree extends Owner{
+public class Tree{
 
 	public String name;
 	public int price;
@@ -21,9 +21,9 @@ public class Tree extends Owner{
 		this.difficulty = difficulty;
 		this.amount = amount;
 		this.maxAmount = maxAmount;
-		this.ownerName = ownerName;
-		this.age = age;
-		this.phoneNum = phoneNum;
+		this.owner.ownerName = ownerName;
+		this.owner.age = age;
+		this.owner.phoneNum = phoneNum;
 				
 	}
 

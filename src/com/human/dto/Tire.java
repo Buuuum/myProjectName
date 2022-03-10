@@ -15,12 +15,9 @@ public class Tire {
 		this.disDriven = dis_driven;
 	}
 
-//	public String tireInfo() {
-//		return "Tire Company= " + tireCompany + "\nPrice = " + price + "\nDistance Driven = " + disDriven;
-//	}
 
 	void tireInfo() {
 		System.out
-				.println("타이어 제조회사= " + tireCompany + "\n타이어 가격 = " + price + " 원" + "\n주행 거리 = " + disDriven + " km");
+				.println("타이어 제조회사 = " + tireCompany + "\n타이어 가격 = " + price + " 원" + "\n주행 거리 = " + disDriven + " km");
 	}
 }

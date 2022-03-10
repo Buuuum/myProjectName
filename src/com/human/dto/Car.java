@@ -27,9 +27,6 @@ public class Car extends Tire {
 		System.out.println("주행을 멈춥니다");
 	}
 
-//	public String carInfo() {
-//		return "Model = " + model + "\nColor = " + color + "\nCompany = " + company + "\nMaxSpeed = " + maxSpeed;
-//	}
 
 	void carInfo() {
 		System.out.println(

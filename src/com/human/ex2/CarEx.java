@@ -25,6 +25,8 @@ public class CarEx {
 		System.out.println(car2.tire.price);
 		System.out.println(car2.tire.disDriven);
 		
+		System.out.println(car2);
+		
 		
 		
 	}

@@ -20,6 +20,13 @@ public class Car {
 		this.tire.price = price;
 		this.tire.disDriven = disDriven;
 	}
+
+
+	@Override
+	public String toString() {
+		return "모델 = " + model + "\n색상 = " + color + "\n제조회사 = " + company + "\n최대 속도 = " + maxSpeed
+				+ "Km/h\n타이어 제조회사 = " + tire.tireCompany + "\n타이어 가격 = " + tire.price + "원\n주행거리 = " + tire.disDriven + "Km";
+	}
 	
 	
 

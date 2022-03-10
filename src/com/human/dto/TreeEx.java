@@ -55,7 +55,6 @@ public class TreeEx {
 //		System.out.println("주인 번호 : " + papaya.owner.PhoneNum);
 //		System.out.println();
 
-
 //		Tree bananaPalm = new Tree();
 //		bananaPalm.name = "Banana Palm";
 //		bananaPalm.price = 500;
@@ -108,8 +107,21 @@ public class TreeEx {
 //		System.out.println();
 
 		
-		Tree apple = new Tree("apple", 600, 4, 4, 7, 50, "홍길동", 28, "010-1351-6433");
-		apple.treeInfo();
-		apple.owner.ownerInfo();
+		
+		Tree mango = new Tree("Mango", 200, 4, 4, 7, 50, "홍길동", 32, "010-2345-1658");
+		System.out.println(mango);
+		System.out.println(mango.owner);
+		
+		Tree papaya = new Tree("Papaya", 375, 6, 6, 6, 50, "김철수", 27, "010-4313-4864");
+		System.out.println(papaya);
+		System.out.println(papaya.owner);
+		
+		Tree bananaPalm = new Tree("Banana Palm", 500, 5, 5, 7, 50, "신짱구", 20, "010-0488-3485");
+		System.out.println(bananaPalm);
+		System.out.println(bananaPalm.owner);
+		
+		Tree lemon = new Tree("Lemon", 750, 8, 8, 1, 50, "이석훈", 35, "010-7455-9615");
+		System.out.println(lemon);
+		System.out.println(lemon.owner);
 	}
 }

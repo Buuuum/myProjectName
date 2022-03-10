@@ -4,19 +4,19 @@ public class TreeEx {
 
 	public static void main(String[] args) {
 
-		Tree mango = new Tree();
-		mango.name = "Mango";
-		mango.price = 200;
-		mango.growTime = 4;
-		mango.difficulty = 4;
-		mango.amount = 7;
-		mango.maxAmount = 50;
-		mango.owner.name = "홍길동";
-		mango.owner.age = 32;
-		mango.owner.PhoneNum = "010-2345-1658";
-
-		mango.treeInfo();
-		mango.owner.ownerInfo();
+//		Tree mango = new Tree();
+//		mango.name = "Mango";
+//		mango.price = 200;
+//		mango.growTime = 4;
+//		mango.difficulty = 4;
+//		mango.amount = 7;
+//		mango.maxAmount = 50;
+//		mango.owner.name = "홍길동";
+//		mango.owner.age = 32;
+//		mango.owner.PhoneNum = "010-2345-1658";
+//
+//		mango.treeInfo();
+//		mango.owner.ownerInfo();
 		
 //		System.out.println("나무이름 : " + mango.name);
 //		System.out.println("가격 : " + mango.price + "원");
@@ -30,19 +30,19 @@ public class TreeEx {
 //		System.out.println();
 
 		
-		Tree papaya = new Tree();
-		papaya.name = "Papaya";
-		papaya.price = 375;
-		papaya.growTime = 6;
-		papaya.difficulty = 6;
-		papaya.amount = 6;
-		papaya.maxAmount = 50;
-		papaya.owner.name = "김철수";
-		papaya.owner.age = 27;
-		papaya.owner.PhoneNum = "010-4313-4864";
-		
-		papaya.treeInfo();
-		papaya.owner.ownerInfo();
+//		Tree papaya = new Tree();
+//		papaya.name = "Papaya";
+//		papaya.price = 375;
+//		papaya.growTime = 6;
+//		papaya.difficulty = 6;
+//		papaya.amount = 6;
+//		papaya.maxAmount = 50;
+//		papaya.owner.name = "김철수";
+//		papaya.owner.age = 27;
+//		papaya.owner.PhoneNum = "010-4313-4864";
+//		
+//		papaya.treeInfo();
+//		papaya.owner.ownerInfo();
 		
 //		System.out.println("나무이름 : " + papaya.name);
 //		System.out.println("가격 : " + papaya.price + "원");
@@ -56,19 +56,19 @@ public class TreeEx {
 //		System.out.println();
 
 
-		Tree bananaPalm = new Tree();
-		bananaPalm.name = "Banana Palm";
-		bananaPalm.price = 500;
-		bananaPalm.growTime = 5;
-		bananaPalm.difficulty = 5;
-		bananaPalm.amount = 7;
-		bananaPalm.maxAmount = 50;
-		bananaPalm.owner.name = "신짱구";
-		bananaPalm.owner.age = 20;
-		bananaPalm.owner.PhoneNum = "010-0488-3485";
-		
-		bananaPalm.treeInfo();
-		bananaPalm.owner.ownerInfo();
+//		Tree bananaPalm = new Tree();
+//		bananaPalm.name = "Banana Palm";
+//		bananaPalm.price = 500;
+//		bananaPalm.growTime = 5;
+//		bananaPalm.difficulty = 5;
+//		bananaPalm.amount = 7;
+//		bananaPalm.maxAmount = 50;
+//		bananaPalm.owner.name = "신짱구";
+//		bananaPalm.owner.age = 20;
+//		bananaPalm.owner.PhoneNum = "010-0488-3485";
+//		
+//		bananaPalm.treeInfo();
+//		bananaPalm.owner.ownerInfo();
 
 //		System.out.println("나무이름 : " + bananaPalm.name);
 //		System.out.println("가격 : " + bananaPalm.price + "원");
@@ -82,19 +82,19 @@ public class TreeEx {
 //		System.out.println();
 
 		
-		Tree lemon = new Tree();
-		lemon.name = "Lemon";
-		lemon.price = 750;
-		lemon.growTime = 8;
-		lemon.difficulty = 8;
-		lemon.amount = 1;
-		lemon.maxAmount = 50;
-		lemon.owner.name = "이석훈";
-		lemon.owner.age = 35;
-		lemon.owner.PhoneNum = "010-7455-9615";
-		
-		lemon.treeInfo();
-		lemon.owner.ownerInfo();
+//		Tree lemon = new Tree();
+//		lemon.name = "Lemon";
+//		lemon.price = 750;
+//		lemon.growTime = 8;
+//		lemon.difficulty = 8;
+//		lemon.amount = 1;
+//		lemon.maxAmount = 50;
+//		lemon.owner.name = "이석훈";
+//		lemon.owner.age = 35;
+//		lemon.owner.PhoneNum = "010-7455-9615";
+//		
+//		lemon.treeInfo();
+//		lemon.owner.ownerInfo();
 		
 //		System.out.println("나무 이름 : " + lemon.name);
 //		System.out.println("가격 : " + lemon.price + "원");
@@ -107,6 +107,8 @@ public class TreeEx {
 //		System.out.println("주인 번호 : " + lemon.owner.PhoneNum);
 //		System.out.println();
 
-
+		
+		Tree apple = new Tree("apple", 600, 4, 4, 7, 50, "홍길동", 28, "010-1351-6433");
+		apple.treeInfo();
 	}
 }

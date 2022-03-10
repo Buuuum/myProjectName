@@ -8,15 +8,15 @@ public class Owner {
 	
 	
 
-//	public Owner() {
-//	}
-//	
-//	public Owner(String name, int age, String phoneNum) {
-//		super();
-//		this.ownerName = name;
-//		this.age = age;
-//		this.phoneNum = phoneNum;
-//	}
+	public Owner() {
+	}
+	
+	public Owner(String name, int age, String phoneNum) {
+		super();
+		this.ownerName = name;
+		this.age = age;
+		this.phoneNum = phoneNum;
+	}
 
 	
 	void ownerInfo() {

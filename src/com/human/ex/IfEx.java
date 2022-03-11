@@ -3,100 +3,45 @@ package com.human.ex;
 import java.util.Scanner;
 
 public class IfEx {
-	
-	
+
 	public static void main(String[] args) {
+		
 		
 //		문제1)
 //		Scanner sc = new Scanner(System.in);
-//		
-//		System.out.print("a 입력 : ");
+//		System.out.print("숫자를 입력하세요 : ");
 //		int a = Integer.parseInt(sc.nextLine());
-//		System.out.print("b 입력 : ");
-//		int b = Integer.parseInt(sc.nextLine());
 //		
-//		if(a==0) {
-//			a = 5;
-//			System.out.println("a : "+a+"\n"+"b : "+b);
-//		}else {
-//			b=a+3;
-//			System.out.println("a : "+a+"\n"+"b : "+b);
+//		if(a%2==1) {
+//			System.out.println("홀수");
+//		}else if(a%2==0){
+//			System.out.println("짝수");
 //		}
-	
-	
+		
+		
 //		문제2)
 //		Scanner sc = new Scanner(System.in);
-//		
-//		System.out.print("음수나 양수 입력 : ");
+//		System.out.print("숫자 2개 입력 : ");
 //		int a = Integer.parseInt(sc.nextLine());
+//		int b = Integer.parseInt(sc.nextLine());
 //		
-//		if(a<0) {
-//			System.out.println(Math.abs(a));
+//		if(a%b==0) {
+//			System.out.println(a+"는 "+b+"의 배수입니다.");
 //		}else {
-//			System.out.println(a);
+//			System.out.println(a+"는 "+b+"의 배수가 아닙니다.");
 //		}
-	
+		
 		
 //		문제3)
 //		Scanner sc = new Scanner(System.in);
-//		System.out.print("숫자 입력 : ");
+//		System.out.print("얼마인지 입력하세요 : ");
 //		int a = Integer.parseInt(sc.nextLine());
+//		int obeak = 0;
+//		int beak = 0;
+//		obeak = a/500;
+//		beak = a%500/100;
 //		
-//		if(a%126==0) {
-//			System.out.println("126의 약수입니다.");
-//		}else {
-//			System.out.println("126의 약수가 아닙니다.");
-//		}
-		
-		
-//		문제4)
-//		Scanner sc = new Scanner(System.in);
-//		System.out.print("국어 점수 : ");
-//		double kor = Double.parseDouble(sc.nextLine());
-//		System.out.print("영어 점수 : ");
-//		double eng = Double.parseDouble(sc.nextLine());
-//		System.out.print("수학 점수 : ");
-//		double math = Double.parseDouble(sc.nextLine());
-//		
-//		double sum = (kor+eng+math)/3;
-//				
-//		if(sum>=80) {
-//			System.out.println("합격");
-//		}else {
-//			System.out.println("불합격");
-//		}
-		
-		
-//		문제5)
-//		Scanner sc = new Scanner(System.in);
-//		System.out.print("숫자 입력 : ");
-//		int x = Integer.parseInt(sc.nextLine());
-//		
-//		if(x<=5) {
-//			x += 15;
-//			System.out.println(x);
-//		}else {
-//			x += 5;
-//			System.out.println(x);
-//		}
-		
-		
-		
-//		문제6)
-//		boolean b1=5!=3;
-//		boolean b2=5==3;
-//		
-//		if(b1)
-//			if(b2)
-//				System.out.println("1번");
-//			else
-//				System.out.println("2번");
-//		else
-//		System.out.println("3번");
-//		System.out.println("4번");
-		
-		
+//		System.out.println("오백원 : "+obeak+"개 백원 : "+beak+"개");
 		
 	}
-
 }

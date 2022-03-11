@@ -4,97 +4,99 @@ import java.util.Scanner;
 
 public class Java0311_Ex02 {
 	
+	
 	public static void main(String[] args) {
 		
 //		문제1)
-//		int a = 20;
-//		int b = 0;
+//		Scanner sc = new Scanner(System.in);
 //		
-//		if(a>10) {
-//			a = b;
-//			System.out.println("a = " + a);
-//			System.out.println("b = " + b);
+//		System.out.print("a 입력 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("b 입력 : ");
+//		int b = Integer.parseInt(sc.nextLine());
+//		
+//		if(a==0) {
+//			a = 5;
+//			System.out.println("a : "+a+"\n"+"b : "+b);
 //		}else {
-//			b = a;
-//			System.out.println("a = " + a);
-//			System.out.println("b = " + b);
+//			b=a+3;
+//			System.out.println("a : "+a+"\n"+"b : "+b);
 //		}
-		
-		
+	
+	
 //		문제2)
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("음수나 양수 입력 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		
+//		if(a<0) {
+//			System.out.println(Math.abs(a));
+//		}else {
+//			System.out.println(a);
+//		}
+	
+		
+//		문제3)
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("숫자 입력 : ");
 //		int a = Integer.parseInt(sc.nextLine());
 //		
-//		if(a>10) {
-//			System.out.println("a는 10보다 큽니다.");
-//		}else if(a<10){
-//			System.out.println("a는 10보다 작습니다.");
+//		if(a%126==0) {
+//			System.out.println("126의 약수입니다.");
 //		}else {
-//			System.out.println("a는 10입니다. ");
+//			System.out.println("126의 약수가 아닙니다.");
 //		}
 		
 		
-//		문제3)
+//		문제4)
 //		Scanner sc = new Scanner(System.in);
-//		System.out.println("입력 : ");
-//		int result = Integer.parseInt(sc.nextLine());
+//		System.out.print("국어 점수 : ");
+//		double kor = Double.parseDouble(sc.nextLine());
+//		System.out.print("영어 점수 : ");
+//		double eng = Double.parseDouble(sc.nextLine());
+//		System.out.print("수학 점수 : ");
+//		double math = Double.parseDouble(sc.nextLine());
 //		
-//		if(result==0) {
-//			System.out.println(result);
+//		double sum = (kor+eng+math)/3;
+//				
+//		if(sum>=80) {
+//			System.out.println("합격");
 //		}else {
-//			System.out.println("1");
+//			System.out.println("불합격");
 //		}
 		
 		
 //		문제5)
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("숫자 입력 : ");
-//		double a =Double.parseDouble(sc.nextLine());
+//		int x = Integer.parseInt(sc.nextLine());
 //		
-//		System.out.println(Math.abs(a));
+//		if(x<=5) {
+//			x += 15;
+//			System.out.println(x);
+//		}else {
+//			x += 5;
+//			System.out.println(x);
+//		}
+		
 		
 		
 //		문제6)
-//		Scanner sc = new Scanner(System.in);
-//		System.out.print("첫번째 수 입력 : ");
-//		int a = Integer.parseInt(sc.nextLine());
-//		System.out.print("두번째 수 입력 : ");
-//		int b = Integer.parseInt(sc.nextLine());
-//		int result = 0;
-//		if(a>b) {
-//			result = a-b;
-//			System.out.println(result);
-//		}else {
-//			result = b-a;
-//			System.out.println(result);
-//		}
-		
-		
-//		문제7)
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("첫번째 수 : ");
-//		int a = Integer.parseInt(sc.nextLine());
-//		System.out.println("두번째 수 : ");
-//		int b = Integer.parseInt(sc.nextLine());
-//		System.out.println("세번째 수 : ");
-//		int c = Integer.parseInt(sc.nextLine());
+//		boolean b1=5!=3;
+//		boolean b2=5==3;
 //		
-//		if(a>b) {
-//			if(a>c) {
-//				System.out.println(a);
-//			}else if(b>c) {
-//				System.out.println(b);
-//			}else {
-//				System.out.println(c);
-//			}
-//		}else if(b>c){
-//			System.out.println(b);
-//		}else {
-//			System.out.println(c);
-//		}
-				
-	
+//		if(b1)
+//			if(b2)
+//				System.out.println("1번");
+//			else
+//				System.out.println("2번");
+//		else
+//		System.out.println("3번");
+//		System.out.println("4번");
+		
+		
+		
 	}
 
 }

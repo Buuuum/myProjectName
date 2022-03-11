@@ -2,7 +2,7 @@ package com.human.ex;
 
 import java.util.Scanner;
 
-public class IfEx_02 {
+public class Java0311_Ex02 {
 	
 	public static void main(String[] args) {
 		
@@ -47,7 +47,7 @@ public class IfEx_02 {
 //		}
 		
 		
-//		문제4)
+//		문제5)
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("숫자 입력 : ");
 //		double a =Double.parseDouble(sc.nextLine());
@@ -55,7 +55,7 @@ public class IfEx_02 {
 //		System.out.println(Math.abs(a));
 		
 		
-//		문제5)
+//		문제6)
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("첫번째 수 입력 : ");
 //		int a = Integer.parseInt(sc.nextLine());
@@ -71,7 +71,7 @@ public class IfEx_02 {
 //		}
 		
 		
-//		문제6)
+//		문제7)
 //		Scanner sc = new Scanner(System.in);
 //		System.out.println("첫번째 수 : ");
 //		int a = Integer.parseInt(sc.nextLine());

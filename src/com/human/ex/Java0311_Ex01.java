@@ -1,6 +1,6 @@
 package com.human.ex;
 
-public class ArrayEx {
+public class Java0311_Ex01 {
 
 	public static void main(String[] args) {
 

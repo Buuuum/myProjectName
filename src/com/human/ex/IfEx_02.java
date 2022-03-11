@@ -36,19 +36,14 @@ public class IfEx_02 {
 		
 		
 //		문제3)
-//		int result = 0;
-//		
 //		Scanner sc = new Scanner(System.in);
-//		System.out.println("0 또는 1 중 입력 : ");
-//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.println("입력 : ");
+//		int result = Integer.parseInt(sc.nextLine());
 //		
-//		if(a==0) {
-//			System.out.println(result);
-//		}else if(a==1) {
-//			result = 1;
+//		if(result==0) {
 //			System.out.println(result);
 //		}else {
-//			System.out.println("0 또는 1 중 입력");
+//			System.out.println("1");
 //		}
 		
 		
@@ -66,17 +61,39 @@ public class IfEx_02 {
 //		int a = Integer.parseInt(sc.nextLine());
 //		System.out.print("두번째 수 입력 : ");
 //		int b = Integer.parseInt(sc.nextLine());
-//		int sum = 0;
+//		int result = 0;
 //		if(a>b) {
-//			sum = a-b;
-//			System.out.println(sum);
+//			result = a-b;
+//			System.out.println(result);
 //		}else {
-//			sum = b-a;
-//			System.out.println(sum);
+//			result = b-a;
+//			System.out.println(result);
 //		}
 		
 		
 //		문제6)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("첫번째 수 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.println("두번째 수 : ");
+//		int b = Integer.parseInt(sc.nextLine());
+//		System.out.println("세번째 수 : ");
+//		int c = Integer.parseInt(sc.nextLine());
+//		
+//		if(a>b) {
+//			if(a>c) {
+//				System.out.println(a);
+//			}else if(b>c) {
+//				System.out.println(b);
+//			}else {
+//				System.out.println(c);
+//			}
+//		}else if(b>c){
+//			System.out.println(b);
+//		}else {
+//			System.out.println(c);
+//		}
+				
 	
 	}
 

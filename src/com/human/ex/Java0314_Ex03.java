@@ -32,19 +32,19 @@ public class Java0314_Ex03 {
 //		int a = 5;
 //		int b = 7;
 //		
-//		switch(input) {
-//			case 0 : 
-//				a=a+2;
-//				break;
-//			case 1 :
-//				b=b+4;
-//				break;
-//			case 2 :
-//				a=a+b;
-//				break;
-//			default :
-//				b=b+5;
-//				break;
+//		switch (input) {
+//		case 0:
+//			a = a + 2;
+//			break;
+//		case 1:
+//			b = b + 4;
+//			break;
+//		case 2:
+//			a = a + b;
+//			break;
+//		default:
+//			b = b + 5;
+//			break;
 //		}
 //		System.out.println(String.format("a=%d, b=%d", a,b));
 		
@@ -73,25 +73,25 @@ public class Java0314_Ex03 {
 //		System.out.print("점수 입력 : ");
 //		int score = Integer.parseInt(sc.nextLine());
 //		
-//		switch(score/10) {
-//			case 10 :
-//				System.out.println("수");
-//				break;
-//			case 9 :
-//				System.out.println("수");
-//				break;
-//			case 8 :
-//				System.out.println("우");
-//				break;
-//			case 7 :
-//				System.out.println("미");
-//				break;
-//			case 6 :
-//				System.out.println("양");
-//				break;
-//			default :
-//				System.out.println("가");
-//				break;
+//		switch (score / 10) {
+//		case 10:
+//			System.out.println("수");
+//			break;
+//		case 9:
+//			System.out.println("수");
+//			break;
+//		case 8:
+//			System.out.println("우");
+//			break;
+//		case 7:
+//			System.out.println("미");
+//			break;
+//		case 6:
+//			System.out.println("양");
+//			break;
+//		default:
+//			System.out.println("가");
+//			break;
 //		}
 		
 		
@@ -162,21 +162,23 @@ public class Java0314_Ex03 {
 		
 	
 //		문제5)
-		Scanner sc = new Scanner(System.in);
-		System.out.print("나이는 : ");
-		int age = Integer.parseInt(sc.nextLine());
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("나이는 : ");
+//		int age = Integer.parseInt(sc.nextLine());
+//		
+//		if(age>19) {
+//			System.err.println("잘못 입력");
+//		}else if(age>=17) {
+//			System.out.println("고등학교");
+//		}else if(age>=14) {
+//			System.out.println("중학교");
+//		}else if(age>=11) {
+//			System.out.println("초등학교");
+//		}else {
+//			System.out.println("잘못 입력");
+//		}
 		
-		if(age>19) {
-			System.err.println("잘못 입력");
-		}else if(age>=17) {
-			System.out.println("고등학교");
-		}else if(age>=14) {
-			System.out.println("중학교");
-		}else if(age>=11) {
-			System.out.println("초등학교");
-		}else {
-			System.out.println("잘못 입력");
-		}
+		
 	}
 
 }

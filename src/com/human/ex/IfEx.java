@@ -14,7 +14,7 @@ public class IfEx {
 //		
 //		if(a%2==1) {
 //			System.out.println("홀수");
-//		}else if(a%2==0){
+//		}else {
 //			System.out.println("짝수");
 //		}
 		
@@ -36,10 +36,8 @@ public class IfEx {
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("얼마인지 입력하세요 : ");
 //		int a = Integer.parseInt(sc.nextLine());
-//		int obeak = 0;
-//		int beak = 0;
-//		obeak = a/500;
-//		beak = a%500/100;
+//		int obeak = a/500;
+//		int beak = a%500/100;
 //		
 //		System.out.println(String.format("오백원 : %d개  백원 : %d개", obeak, beak));
 		
@@ -63,6 +61,20 @@ public class IfEx {
 //		int m = n%3600/60;
 //		int s = n%3600%60;
 //		System.out.println(String.format("%d시 %d분 %d초", h, m, s));
+		
+		
+//		문제6)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("시간 : ");
+//		int n = Integer.parseInt(sc.nextLine());
+//		System.out.print("분 : ");
+//		int m = Integer.parseInt(sc.nextLine());
+//		System.out.print("초 : ");
+//		int l = Integer.parseInt(sc.nextLine());
+//		
+//		int s = (n*3600)+(m*60)+l;
+//		System.out.println(s);
+		
 		
 		
 	}

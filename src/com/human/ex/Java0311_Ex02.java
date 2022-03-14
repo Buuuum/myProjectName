@@ -41,7 +41,7 @@ public class Java0311_Ex02 {
 //		System.out.print("숫자 입력 : ");
 //		int a = Integer.parseInt(sc.nextLine());
 //		
-//		if(a%126==0) {
+//		if(126%a==0) {
 //			System.out.println("126의 약수입니다.");
 //		}else {
 //			System.out.println("126의 약수가 아닙니다.");
@@ -94,7 +94,7 @@ public class Java0311_Ex02 {
 //		System.out.println("3번");
 //		System.out.println("4번");
 		
-		
+//		출력 : 2번 4번
 		
 	}
 

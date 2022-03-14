@@ -83,7 +83,7 @@ public class Java0311_Ex03 {
 //		int b = Integer.parseInt(sc.nextLine());
 //		System.out.println("세번째 수 : ");
 //		int c = Integer.parseInt(sc.nextLine());
-//		
+		
 //		if(a>b) {
 //			if(a>c) {
 //				System.out.println(a);
@@ -96,6 +96,24 @@ public class Java0311_Ex03 {
 //			System.out.println(b);
 //		}else {
 //			System.out.println(c);
+//		}
+		
+		
+//		또는
+		
+		
+//		if(a>b) {
+//			if(a>c) {
+//				System.out.println(a);
+//			}else {
+//				System.out.println(c);
+//			}
+//		}else {
+//			if(b>c)
+//				System.out.println(b);
+//			else {
+//				System.out.println(c);
+//			}
 //		}
 				
 	

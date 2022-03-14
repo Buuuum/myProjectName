@@ -2,7 +2,7 @@ package com.human.ex;
 
 import java.util.Scanner;
 
-public class Java0314 {
+public class Java0314_Ex02 {
 
 	public static void main(String[] args) {
 		
@@ -70,7 +70,6 @@ public class Java0314 {
 //			}
 //		}
 //		System.out.println(String.format("a:%d, b:%d, c:%d", a,b,c));
-		
 		
 	}
 }

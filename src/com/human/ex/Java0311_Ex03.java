@@ -52,7 +52,11 @@ public class Java0311_Ex03 {
 //		System.out.print("숫자 입력 : ");
 //		double a =Double.parseDouble(sc.nextLine());
 //		
-//		System.out.println(Math.abs(a));
+//		if(a>0) {
+//			System.out.println(a);
+//		}else {
+//			System.out.println(a*-1);
+//		}
 		
 		
 //		문제6)

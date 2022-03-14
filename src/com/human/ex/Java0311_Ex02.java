@@ -9,13 +9,12 @@ public class Java0311_Ex02 {
 		
 //		문제1)
 //		Scanner sc = new Scanner(System.in);
+//		System.out.print("숫자 입력 : ");
+//		int input = Integer.parseInt(sc.nextLine());
+//		int a = 11;
+//		int b = 14;
 //		
-//		System.out.print("a 입력 : ");
-//		int a = Integer.parseInt(sc.nextLine());
-//		System.out.print("b 입력 : ");
-//		int b = Integer.parseInt(sc.nextLine());
-//		
-//		if(a==0) {
+//		if(input==0) {
 //			a = 5;
 //			System.out.println("a : "+a+"\n"+"b : "+b);
 //		}else {
@@ -31,7 +30,7 @@ public class Java0311_Ex02 {
 //		int a = Integer.parseInt(sc.nextLine());
 //		
 //		if(a<0) {
-//			System.out.println(Math.abs(a));
+//			System.out.println(a*-1);
 //		}else {
 //			System.out.println(a);
 //		}

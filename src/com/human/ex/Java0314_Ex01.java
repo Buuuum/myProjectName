@@ -2,7 +2,7 @@ package com.human.ex;
 
 import java.util.Scanner;
 
-public class IfEx {
+public class Java0314_Ex01 {
 
 	public static void main(String[] args) {
 		
@@ -45,11 +45,11 @@ public class IfEx {
 //		문제4)
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("500원은 몇 개?");
-//		int obeak = Integer.parseInt(sc.nextLine());
+//		int n = Integer.parseInt(sc.nextLine());
 //		System.out.print("100원은 몇 개?");
-//		int beak = Integer.parseInt(sc.nextLine());
+//		int m = Integer.parseInt(sc.nextLine());
 //		
-//		int sum = (obeak*500)+(beak*100);
+//		int sum = (n*500)+(m*100);
 //		System.out.println(String.format("총 가격 : %d원", sum));
 		
 		
@@ -73,7 +73,7 @@ public class IfEx {
 //		int l = Integer.parseInt(sc.nextLine());
 //		
 //		int s = (n*3600)+(m*60)+l;
-//		System.out.println(s);
+//		System.out.println(s + "초");
 		
 		
 		

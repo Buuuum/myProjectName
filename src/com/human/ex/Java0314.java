@@ -121,15 +121,15 @@ public class Java0314 {
 		System.out.print("무엇을 먹었는가? (밥/빵) : ");
 		String input = sc.nextLine();
 		System.out.println("다른 걸 먹었는가? (true/false) : ");
-		boolean a = true;
+		boolean a = Boolean.parseBoolean(sc.nextLine());
 		
-		if(input=="밥"&&a==true) {
+		if(input.equals("밥")&&a==true) {
 			System.out.println("밥을 먹었음");
-		}else if(input=="밥"&&!a==false) {
+		}else if(input.equals("밥")&&!a==false) {
 			System.out.println();
-		}else if(input=="빵"&&a==true) {
+		}else if(input.equals("빵")&&a==true) {
 			System.out.println("빵을 먹었음");
-		}else if(input=="빵"&&!a==true) {
+		}else if(input.equals("빵")&&!a==true) {
 			System.out.println("밥을 먹었음");
 		}
 		

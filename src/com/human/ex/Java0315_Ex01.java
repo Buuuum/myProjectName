@@ -395,37 +395,46 @@ public class Java0315_Ex01 {
 		
 //		문제12)
 //		Scanner sc = new Scanner(System.in);
+//
+//		int you = (int)(Math.random()*3+1);
 //		System.out.print("가위,바위,보 중 무엇을 내겠습니까? : ");
-//		String a = sc.nextLine();
-//		System.out.print("상대는 가위,바위,보 중 무엇을 냈습니까? : ");
-//		String b = sc.nextLine();
+//		String me = sc.nextLine();
 //		
-//		if(a.equals("가위")) {
-//			if(b.equals("가위")) {
+//		if(you==1) {
+//			if(me.equals("가위")) {
+//				System.out.println("상대가 가위를 냈습니다");
 //				System.out.println("비겼습니다.");
-//			}else if(b.equals("바위")) {
-//				System.out.println("졌습니다.");
-//			}else if(b.equals("보")) {
+//			}else if(me.equals("바위")) {
+//				System.out.println("상대가 가위를 냈습니다");
 //				System.out.println("이겼습니다.");
-//			}else {
-//				System.out.println("잘못입력");
-//			}
-//		}else if(a.equals("바위")) {
-//			if(b.equals("가위")) {
-//				System.out.println("이겼습니다.");
-//			}else if(b.equals("바위")) {
-//				System.out.println("비겼습니다.");
-//			}else if(b.equals("보")) {
+//			}else if(me.equals("보")) {
+//				System.out.println("상대가 가위를 냈습니다");
 //				System.out.println("졌습니다.");
 //			}else {
 //				System.out.println("잘못입력");
 //			}
-//		}else if(a.equals("보")) {
-//			if(b.equals("가위")) {
+//		}else if(you==2) {
+//			if(me.equals("가위")) {
+//				System.out.println("상대가 바위를 냈습니다");
 //				System.out.println("졌습니다.");
-//			}else if(b.equals("바위")) {
+//			}else if(me.equals("바위")) {
+//				System.out.println("상대가 바위를 냈습니다");
+//				System.out.println("비겼습니다.");
+//			}else if(me.equals("보")) {
+//				System.out.println("상대가 바위를 냈습니다");
 //				System.out.println("이겼습니다.");
-//			}else if(b.equals("보")) {
+//			}else {
+//				System.out.println("잘못입력");
+//			}
+//		}else if(you==3) {
+//			if(me.equals("가위")) {
+//				System.out.println("상대가 보를 냈습니다");
+//				System.out.println("이겼습니다.");
+//			}else if(me.equals("바위")) {
+//				System.out.println("상대가 보를 냈습니다");
+//				System.out.println("졌습니다.");
+//			}else if(me.equals("보")) {
+//				System.out.println("상대가 보를 냈습니다");
 //				System.out.println("비겼습니다.");
 //			}else {
 //				System.out.println("잘못입력");
@@ -433,6 +442,7 @@ public class Java0315_Ex01 {
 //		}else {
 //			System.out.println("잘못입력");
 //		}
+		
 		
 		
 	}

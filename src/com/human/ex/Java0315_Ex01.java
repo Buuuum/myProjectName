@@ -270,92 +270,100 @@ public class Java0315_Ex01 {
 //		int size = Integer.parseInt(sc.nextLine());
 //		
 //		if(num==1) {
-//			if(size>=33||size<36) {
+//			if(size>=33&&size<36) {
 //				System.out.println("목둘레 " + size);
 //				System.out.println("미국 SIZE : S");
 //				System.out.println("한국 SIZE : 90~95");
-//			}else if(size>=36||size<38) {
+//			}else if(size>=36&&size<38) {
 //				System.out.println("목둘레 " + size);
 //				System.out.println("미국 SIZE : M");
 //				System.out.println("한국 SIZE : 95~100");
-//			}else if(size>=38||size<41) {
+//			}else if(size>=38&&size<41) {
 //				System.out.println("목둘레 " + size);
 //				System.out.println("미국 SIZE : L");
 //				System.out.println("한국 SIZE : 100~105");
-//			}else if(size>=41||size<43) {
+//			}else if(size>=41&&size<43) {
 //				System.out.println("목둘레 " + size);
 //				System.out.println("미국 SIZE : XL");
 //				System.out.println("한국 SIZE : 105~120");
-//			}else if(size>=43||size<45) {
+//			}else if(size>=43&&size<45) {
 //				System.out.println("목둘레 " + size);
 //				System.out.println("미국 SIZE : XXL");
 //				System.out.println("한국 SIZE : 110이상");
+//			}else {
+//				System.out.println("잘못입력");
 //			}
 //		}else if(num==2) {
-//			if(size>=86||size<91) {
+//			if(size>=86&&size<91) {
 //				System.out.println("가슴둘레 " + size);
 //				System.out.println("미국 SIZE : S");
 //				System.out.println("한국 SIZE : 90~95");
-//			}else if(size>=96||size<102) {
+//			}else if(size>=96&&size<102) {
 //				System.out.println("가슴둘레 " + size);
 //				System.out.println("미국 SIZE : M");
 //				System.out.println("한국 SIZE : 95~100");
-//			}else if(size>=107||size<112) {
+//			}else if(size>=107&&size<112) {
 //				System.out.println("가슴둘레 " + size);
 //				System.out.println("미국 SIZE : L");
 //				System.out.println("한국 SIZE : 100~105");
-//			}else if(size>=117||size<122) {
+//			}else if(size>=117&&size<122) {
 //				System.out.println("가슴둘레 " + size);
 //				System.out.println("미국 SIZE : XL");
 //				System.out.println("한국 SIZE : 105~120");
-//			}else if(size>=127||size<132) {
+//			}else if(size>=127&&size<132) {
 //				System.out.println("가슴둘레 " + size);
 //				System.out.println("미국 SIZE : XXL");
 //				System.out.println("한국 SIZE : 110이상");
+//			}else {
+//				System.out.println("잘못입력");
 //			}
 //		}else if(num==3) {
-//			if(size>=78||size<81) {
+//			if(size>=78&&size<81) {
 //				System.out.println("팔길이 " + size);
 //				System.out.println("미국 SIZE : S");
 //				System.out.println("한국 SIZE : 90~95");
-//			}else if(size>=81||size<84) {
+//			}else if(size>=81&&size<84) {
 //				System.out.println("팔길이 " + size);
 //				System.out.println("미국 SIZE : M");
 //				System.out.println("한국 SIZE : 95~100");
-//			}else if(size>=84||size<86) {
+//			}else if(size>=84&&size<86) {
 //				System.out.println("팔길이 " + size);
 //				System.out.println("미국 SIZE : L");
 //				System.out.println("한국 SIZE : 100~105");
-//			}else if(size>=86||size<89) {
+//			}else if(size>=86&&size<89) {
 //				System.out.println("팔길이 " + size);
 //				System.out.println("미국 SIZE : XL");
 //				System.out.println("한국 SIZE : 105~120");
-//			}else if(size>=89||size<91) {
+//			}else if(size>=89&&size<91) {
 //				System.out.println("팔길이 " + size);
 //				System.out.println("미국 SIZE : XXL");
 //				System.out.println("한국 SIZE : 110이상");
+//			}else {
+//				System.out.println("잘못입력");
 //			}
 //		}else if(num==4) {
-//			if(size>=28||size<30) {
+//			if(size>=28&&size<30) {
 //				System.out.println("허리둘레 " + size);
 //				System.out.println("미국 SIZE : S");
 //				System.out.println("한국 SIZE : 90~95");
-//			}else if(size>=30||size<32) {
+//			}else if(size>=30&&size<32) {
 //				System.out.println("허리둘레 " + size);
 //				System.out.println("미국 SIZE : M");
 //				System.out.println("한국 SIZE : 95~100");
-//			}else if(size>=32||size<34) {
+//			}else if(size>=32&&size<34) {
 //				System.out.println("허리둘레 " + size);
 //				System.out.println("미국 SIZE : L");
 //				System.out.println("한국 SIZE : 100~105");
-//			}else if(size>=34||size<38) {
+//			}else if(size>=34&&size<38) {
 //				System.out.println("허리둘레 " + size);
 //				System.out.println("미국 SIZE : XL");
 //				System.out.println("한국 SIZE : 105~120");
-//			}else if(size>=38||size<41) {
+//			}else if(size>=38&&size<41) {
 //				System.out.println("허리둘레 " + size);
 //				System.out.println("미국 SIZE : XXL");
 //				System.out.println("한국 SIZE : 110이상");
+//			}else {
+//				System.out.println("잘못입력");
 //			}
 //		}else {
 //			System.out.println("잘못 입력");
@@ -442,6 +450,94 @@ public class Java0315_Ex01 {
 //		}else {
 //			System.out.println("잘못입력");
 //		}
+		
+		
+		
+//		문제12)
+//		int a = (int) (Math.random()*5+6);
+//		System.out.println(a);
+		
+		
+		
+//		문제13)
+//		int a = (int) (Math.random()*45+1);
+		
+				
+		
+//		문제14)
+//		int a = (int) (Math.random()*3);
+//		
+//		switch(a) {
+//		case 0:
+//			System.out.println("가위");
+//			break;
+//		case 1:
+//			System.out.println("바위");
+//			break;
+//		case 2:
+//			System.out.println("보");
+//			break;
+//		}
+		
+		
+		
+//		문제13)
+		Scanner sc = new Scanner(System.in);
+		System.out.println("번 돈은 얼마입니까? (단위:만원) : ");
+		int inCome = Integer.parseInt(sc.nextLine());
+		int money = 0;
+		int tax = 0;
+		int tax2 = 0;
+		
+		if(inCome<=1200) {
+			tax = (int) (inCome*0.06);
+			money = (int) (inCome-tax);
+			System.out.println("번 돈(세전) : "+ inCome);
+			System.out.println("세금 : " + tax);
+			System.out.println("번 돈(세후) : " + money);
+		}else if(inCome>=1200&&inCome<4600) {
+			tax = (int) (1200*0.06);
+			tax2 = (int) ((inCome-1200)*0.15);
+			money = (int) inCome-(tax+tax2);
+			System.out.println("번 돈(세전) : "+ inCome);
+			System.out.println("세금 : " + (tax + tax2));
+			System.out.println("번 돈(세후) : " + money);
+		}else if(inCome>=4600&&inCome<8800) {
+			tax = (int) (4600*0.15);
+			tax2 = (int) ((inCome-4600)*0.24);
+			money = (int) inCome-(tax+tax2);
+			System.out.println("번 돈(세전) : "+ inCome);
+			System.out.println("세금 : " + (tax + tax2));
+			System.out.println("번 돈(세후) : " + money);
+		}else if(inCome>=8800&&inCome<15000) {
+			tax = (int) (8800*0.24);
+			tax2 = (int) ((inCome-8800)*0.35);
+			money = (int) inCome-(tax+tax2);
+			System.out.println("번 돈(세전) : "+ inCome);
+			System.out.println("세금 : " + (tax + tax2));
+			System.out.println("번 돈(세후) : " + money);
+		}else if(inCome>=15000&&inCome<30000) {
+			tax = (int) (15000*0.35);
+			tax2 = (int) ((inCome-15000)*0.38);
+			money = (int) inCome-(tax+tax2);
+			System.out.println("번 돈(세전) : "+ inCome);
+			System.out.println("세금 : " + (tax + tax2));
+			System.out.println("번 돈(세후) : " + money);
+		}else if(inCome>=30000&&inCome<50000) {
+			tax = (int) (30000*0.38);
+			tax2 = (int) ((inCome-30000)*0.40);
+			money = (int) inCome-(tax+tax2);
+			System.out.println("번 돈(세전) : "+ inCome);
+			System.out.println("세금 : " + (tax + tax2));
+			System.out.println("번 돈(세후) : " + money);
+		}else if(inCome>50000) {
+			tax = (int) (50000*0.40);
+			tax2 = (int) ((inCome-50000)*0.42);
+			money = (int) inCome-(tax+tax2);
+			System.out.println("번 돈(세전) : "+ inCome);
+			System.out.println("세금 : " + (tax + tax2));
+			System.out.println("번 돈(세후) : " + money);
+		}
 		
 		
 		

@@ -2,7 +2,7 @@ package com.human.ex;
 
 import java.util.Scanner;
 
-public class Java0314 {
+public class Java0315_Ex01 {
 	
 	public static void main(String[] args) {
 		

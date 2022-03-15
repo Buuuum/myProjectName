@@ -53,14 +53,10 @@ public class Java0315_Ex01 {
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("숫자 입력 : ");
 //		int a = Integer.parseInt(sc.nextLine());
-//		boolean b = true;
-//		boolean c = true;
-//		boolean d = true;
-//		boolean e = true;
-//		b = a%3==0;
-//		c = a%7==0;
-//		d = a%2==0;
-//		e = a%5==0;
+//		boolean b = a%3==0;
+//		boolean c = a%7==0;
+//		boolean d = a%2==0;
+//		boolean e = a%5==0;
 //		
 //		if((b==true||c==true)&&(c==true&&d==true)) {
 //			System.out.println("3또는 7의 배수이며 2와 5의 배수");
@@ -81,10 +77,8 @@ public class Java0315_Ex01 {
 //		System.out.println("y의 좌표 : ");
 //		int y = Integer.parseInt(sc.nextLine());
 //		
-//		boolean a = true;
-//		boolean b = true;
-//		a = x>0;
-//		b = y>0;
+//		boolean a = x>0;
+//		boolean b = y>0;
 //		
 //		if(!a==true&&b==true) {
 //			System.out.println("1번 위치(-x,y축)");
@@ -104,7 +98,6 @@ public class Java0315_Ex01 {
 //		int age = Integer.parseInt(sc.nextLine());
 //		System.out.println("버스카드 ?(true/false) : ");
 //		boolean a = Boolean.parseBoolean(sc.nextLine());
-//		boolean b = true;
 //		
 //		if(age<=15==true&&a==true) {
 //			System.out.println("버스 요금은 1200원 입니다.");
@@ -141,6 +134,9 @@ public class Java0315_Ex01 {
 //		int i = new Date().getDay();
 //		
 //		switch (i) {
+//		case 0:
+//		System.out.println("일요일");
+//		break;
 //		case 1:
 //			System.out.println("월요일");
 //			break;
@@ -158,9 +154,6 @@ public class Java0315_Ex01 {
 //			break;
 //		case 6:
 //			System.out.println("토요일");
-//			break;
-//		case 7:
-//			System.out.println("일요일");
 //			break;
 //		}
 		
@@ -229,6 +222,217 @@ public class Java0315_Ex01 {
 		
 		
 		
+//		문제9)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("청소년(1) 성인(2) 입력 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("키 입력 : ");
+//		double height = Double.parseDouble(sc.nextLine());
+//		System.out.print("몸무게 입력 : ");
+//		double	weight = Double.parseDouble(sc.nextLine());
+//		double bmi = (weight/((height-100)*0.9))*100;
+//		
+//		if(a==1) {
+//			if(bmi>=150) {
+//				System.out.println("고도 비만");
+//			}else if(bmi>=130) {
+//				System.out.println("중도 비만");
+//			}else if(bmi>=120) {
+//				System.out.println("경도 비만");
+//			}else if(bmi>=95) {
+//				System.out.println("정상");
+//			}else if(bmi<95) {
+//				System.out.println("체중미달");
+//			}
+//		}else if(a==2) {
+//			if(bmi>=150) {
+//				System.out.println("고도 비만");
+//			}else if(bmi>=120) {
+//				System.out.println("비만");
+//			}else if(bmi>=110) {
+//				System.out.println("과체중");
+//			}else if(bmi>=100) {
+//				System.out.println("정상");
+//			}else if(bmi<100) {
+//				System.out.println("체중미달");
+//			}
+//		}else {
+//			System.out.println("잘못 입력");
+//		}
+		
+		
+		
+//		문제10)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("목둘레(1), 가슴둘레(2), 팔길이(3), 허리둘레(4) 중 번호를 고르세요 : ");
+//		int num = Integer.parseInt(sc.nextLine());
+//		System.out.print("치수를 입력하세요 : ");
+//		int size = Integer.parseInt(sc.nextLine());
+//		
+//		if(num==1) {
+//			if(size>=33||size<36) {
+//				System.out.println("목둘레 " + size);
+//				System.out.println("미국 SIZE : S");
+//				System.out.println("한국 SIZE : 90~95");
+//			}else if(size>=36||size<38) {
+//				System.out.println("목둘레 " + size);
+//				System.out.println("미국 SIZE : M");
+//				System.out.println("한국 SIZE : 95~100");
+//			}else if(size>=38||size<41) {
+//				System.out.println("목둘레 " + size);
+//				System.out.println("미국 SIZE : L");
+//				System.out.println("한국 SIZE : 100~105");
+//			}else if(size>=41||size<43) {
+//				System.out.println("목둘레 " + size);
+//				System.out.println("미국 SIZE : XL");
+//				System.out.println("한국 SIZE : 105~120");
+//			}else if(size>=43||size<45) {
+//				System.out.println("목둘레 " + size);
+//				System.out.println("미국 SIZE : XXL");
+//				System.out.println("한국 SIZE : 110이상");
+//			}
+//		}else if(num==2) {
+//			if(size>=86||size<91) {
+//				System.out.println("가슴둘레 " + size);
+//				System.out.println("미국 SIZE : S");
+//				System.out.println("한국 SIZE : 90~95");
+//			}else if(size>=96||size<102) {
+//				System.out.println("가슴둘레 " + size);
+//				System.out.println("미국 SIZE : M");
+//				System.out.println("한국 SIZE : 95~100");
+//			}else if(size>=107||size<112) {
+//				System.out.println("가슴둘레 " + size);
+//				System.out.println("미국 SIZE : L");
+//				System.out.println("한국 SIZE : 100~105");
+//			}else if(size>=117||size<122) {
+//				System.out.println("가슴둘레 " + size);
+//				System.out.println("미국 SIZE : XL");
+//				System.out.println("한국 SIZE : 105~120");
+//			}else if(size>=127||size<132) {
+//				System.out.println("가슴둘레 " + size);
+//				System.out.println("미국 SIZE : XXL");
+//				System.out.println("한국 SIZE : 110이상");
+//			}
+//		}else if(num==3) {
+//			if(size>=78||size<81) {
+//				System.out.println("팔길이 " + size);
+//				System.out.println("미국 SIZE : S");
+//				System.out.println("한국 SIZE : 90~95");
+//			}else if(size>=81||size<84) {
+//				System.out.println("팔길이 " + size);
+//				System.out.println("미국 SIZE : M");
+//				System.out.println("한국 SIZE : 95~100");
+//			}else if(size>=84||size<86) {
+//				System.out.println("팔길이 " + size);
+//				System.out.println("미국 SIZE : L");
+//				System.out.println("한국 SIZE : 100~105");
+//			}else if(size>=86||size<89) {
+//				System.out.println("팔길이 " + size);
+//				System.out.println("미국 SIZE : XL");
+//				System.out.println("한국 SIZE : 105~120");
+//			}else if(size>=89||size<91) {
+//				System.out.println("팔길이 " + size);
+//				System.out.println("미국 SIZE : XXL");
+//				System.out.println("한국 SIZE : 110이상");
+//			}
+//		}else if(num==4) {
+//			if(size>=28||size<30) {
+//				System.out.println("허리둘레 " + size);
+//				System.out.println("미국 SIZE : S");
+//				System.out.println("한국 SIZE : 90~95");
+//			}else if(size>=30||size<32) {
+//				System.out.println("허리둘레 " + size);
+//				System.out.println("미국 SIZE : M");
+//				System.out.println("한국 SIZE : 95~100");
+//			}else if(size>=32||size<34) {
+//				System.out.println("허리둘레 " + size);
+//				System.out.println("미국 SIZE : L");
+//				System.out.println("한국 SIZE : 100~105");
+//			}else if(size>=34||size<38) {
+//				System.out.println("허리둘레 " + size);
+//				System.out.println("미국 SIZE : XL");
+//				System.out.println("한국 SIZE : 105~120");
+//			}else if(size>=38||size<41) {
+//				System.out.println("허리둘레 " + size);
+//				System.out.println("미국 SIZE : XXL");
+//				System.out.println("한국 SIZE : 110이상");
+//			}
+//		}else {
+//			System.out.println("잘못 입력");
+//		}
+		
+		
+		
+//		문제11)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("첫번째 수 입력 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("연산자(+ - * /) 선택 : ");
+//		String b = sc.nextLine();
+//		System.out.print("두번째 수 입력 : ");
+//		int c = Integer.parseInt(sc.nextLine());
+//		int result = 0;
+//		switch(b) {
+//		case "+" : 
+//			result = a + c;
+//			System.out.println(String.format("%d + %d = %d 입니다.", a, c, result));
+//			break;
+//		case "-" : 
+//			result = a - c;
+//			System.out.println(String.format("%d - %d = %d 입니다.", a, c, result));
+//			break;
+//		case "*" : 
+//			result = a * c;
+//			System.out.println(String.format("%d * %d = %d 입니다.", a, c, result));
+//			break;
+//		case "/" : 
+//			result = a / c;
+//			System.out.println(String.format("%d / %d = %d 입니다.", a, c, result));
+//			break;
+//		}
+	
+		
+		
+//		문제12)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("가위,바위,보 중 무엇을 내겠습니까? : ");
+//		String a = sc.nextLine();
+//		System.out.print("상대는 가위,바위,보 중 무엇을 냈습니까? : ");
+//		String b = sc.nextLine();
+//		
+//		if(a.equals("가위")) {
+//			if(b.equals("가위")) {
+//				System.out.println("비겼습니다.");
+//			}else if(b.equals("바위")) {
+//				System.out.println("졌습니다.");
+//			}else if(b.equals("보")) {
+//				System.out.println("이겼습니다.");
+//			}else {
+//				System.out.println("잘못입력");
+//			}
+//		}else if(a.equals("바위")) {
+//			if(b.equals("가위")) {
+//				System.out.println("이겼습니다.");
+//			}else if(b.equals("바위")) {
+//				System.out.println("비겼습니다.");
+//			}else if(b.equals("보")) {
+//				System.out.println("졌습니다.");
+//			}else {
+//				System.out.println("잘못입력");
+//			}
+//		}else if(a.equals("보")) {
+//			if(b.equals("가위")) {
+//				System.out.println("졌습니다.");
+//			}else if(b.equals("바위")) {
+//				System.out.println("이겼습니다.");
+//			}else if(b.equals("보")) {
+//				System.out.println("비겼습니다.");
+//			}else {
+//				System.out.println("잘못입력");
+//			}
+//		}else {
+//			System.out.println("잘못입력");
+//		}
 		
 		
 	}

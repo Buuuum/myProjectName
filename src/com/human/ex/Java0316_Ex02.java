@@ -262,24 +262,25 @@ public class Java0316_Ex02 {
 		
 //		문제13)
 		Scanner sc = new Scanner(System.in);
-		int a = Integer.parseInt(sc.nextLine());
-		int answer = 0;
-		boolean chk = true; 
 
-		for(int i = 2; i <= a; i++){ 
-			for(int j = 2; j*j <= i; j++){ 
-				//배수 지우기 
-				if(i % j == 0){ 
-					chk = false; 
-					break; 
-				} 
-			}
-			if(chk){ 
-				answer++; 
+		int num = 0;
+		boolean isPrime = false;
+		num = Integer.parseInt(sc.nextLine());
+
+		for (int i = 2; i < num; i++) {
+			if (num % i == 0) {
+				isPrime = true;
+				break;
 			}
 		}
-		System.out.println(chk);
-		
+
+		if (isPrime) {
+			System.out.println(num + "은(는) 소수가 아닙니다.");
+		} else {
+			System.out.println(num + "은(는) 소수입니다.");
+		}
+
+
 	}
 
 }

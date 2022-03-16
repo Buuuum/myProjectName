@@ -157,7 +157,112 @@ public class Java0316_Ex02 {
 //		}
 		
 		
+//		문제8)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("첫번째 수 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("두번째 수 : ");
+//		int b = Integer.parseInt(sc.nextLine());
+//		System.out.print("세번째 수 : ");
+//		int c = Integer.parseInt(sc.nextLine());
+//		int d = 0;
+//
+//		if(a<b) {
+//			if(b<c) {
+//			}else if(a<c) {
+//				d = b;
+//				b = c;
+//				c = d;
+//			}
+//		}
+//		if(b<a) {
+//			if(a<c) {
+//				d = a;
+//				a = b;
+//				b = d;
+//			}else if(b<c) {
+//				d = a;
+//				a = b;
+//				b = c;
+//				c = d;
+//			}
+//		}
+//		if(c<b) {
+//			if(b<a) {
+//				d = a;
+//				a = c;
+//				c = d;
+//			}else if(c<a) {
+//				d = a;
+//				a = c;
+//				c = b;
+//				b = d;
+//			}
+//		}
+//		System.out.println(String.format("가장 작은 수 : %d\n가장 큰 수 : %d", a,c));
+
 		
+//		문제9)
+//		Scanner sc = new Scanner(System.in);
+//		int i = 0;
+//		int p = 0;
+//		
+//		for(i=0; i<5; i++) {
+//			System.out.print("수학 점수 입력 : ");
+//			int math = Integer.parseInt(sc.nextLine());
+//			
+//			if(math<=60) {
+//				p++;
+//			}
+//		}
+//		System.out.println("탈락자 : "+p+" 명");
+		
+		
+//		문제10)
+//		int sum = 1;
+//		for(int i=1; sum<101; i++) {
+//			System.out.println(String.format("%d : %d", i, sum));
+//			sum += i;
+//		}
+		
+		
+//		문제11)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("문자열 입력 : ");
+//		String a = sc.nextLine();
+//		System.out.print("숫자 입력 : ");
+//		int b = Integer.parseInt(sc.nextLine());
+//		
+//		for(int i=1; i<=b; i++) {
+//			System.out.println(a);
+//		}
+		
+		
+//		문자12)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("첫번째 수 입력 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("두번째 수 입력 : ");
+//		int b = Integer.parseInt(sc.nextLine());
+//		int sum = 0;
+//		
+//		if(a>b) {
+//			for(int i=b; i<=a; i++) {
+//				sum+=i;
+//			}
+//			System.out.println(sum);
+//		}else {
+//			for(int i=a; i<=b; i++) {
+//				sum+=i;
+//			}
+//			System.out.println(sum);
+//		}
+		
+		
+		
+//		문제13)
+		Scanner sc = new Scanner(System.in);
+		int a = Integer.parseInt(sc.nextLine());
 		
 	}
 }

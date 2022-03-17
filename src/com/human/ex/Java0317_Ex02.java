@@ -2,7 +2,7 @@ package com.human.ex;
 
 import java.util.Scanner;
 
-public class Java0316_Ex02 {
+public class Java0317_Ex02 {
 
 	public static void main(String[] args) {
 		
@@ -261,26 +261,156 @@ public class Java0316_Ex02 {
 		
 		
 //		문제13)
-		Scanner sc = new Scanner(System.in);
+//		Scanner sc = new Scanner(System.in);
+//
+//		int num = 0;
+//		boolean isPrime = false;
+//		num = Integer.parseInt(sc.nextLine());
+//
+//		for (int i = 2; i < num; i++) {
+//			if (num % i == 0) {
+//				isPrime = true;
+//				break;
+//			}
+//		}
+//
+//		if (isPrime) {
+//			System.out.println(num + "은(는) 소수가 아닙니다.");
+//		} else {
+//			System.out.println(num + "은(는) 소수입니다.");
+//		}
+		
+		
+	
+//		문제14)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("첫번째 수 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("두번째 수 : ");
+//		int b = Integer.parseInt(sc.nextLine());
+//		
+//		for(int i=a; i<=b; i++) {
+//			System.out.println(i);
+//		}
+		
+		
+//		문제15)
+//		Scanner sc = new Scanner(System.in);
+//		while(true) {
+//			System.out.println("종료 입력 전까지 반복");
+//			String a = sc.nextLine();
+//			if(a.equals("종료")) {
+//				System.out.println("종료됨");
+//				break;
+//			}
+//		}
+		
+//		Scanner sc = new Scanner(System.in);
+//		for(;;) {
+//			System.out.println("종료 입력 전까지 반복");
+//			String a = sc.nextLine();
+//			if(a.equals("종료")) {
+//				System.out.println("종료됨");
+//				break;
+//			}
+//		}
+			
+			
+//		Scanner sc = new Scanner(System.in);
+//		do {
+//			System.out.println("종료 입력 전까지 반복");
+//			String a = sc.nextLine();
+//			if(a.equals("종료")) {
+//				System.out.println("종료됨");
+//				break;
+//			}
+//		}while(true);
+			
+		
+		
+//		문제16)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("찾을 단 수 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		
+//		for(int i=1; i<10; i++) {
+//			System.out.println(String.format("%d * %d : %d", a, i, a*i));
+//		}
 
-		int num = 0;
-		boolean isPrime = false;
-		num = Integer.parseInt(sc.nextLine());
+		
+		
+//		문제17)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("숫자 입력 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		int num = 0;
+//		for(int i=1; i<1001; i++) {
+//			if(i%a==0) {
+//				num++;
+//			}
+//		}
+//		System.out.println(String.format("%d의 배수 갯수는 : %d", a, num));
+		
+		
+		
+//		문제18)
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("행의 수 : ");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("열의 수 : ");
+//		int b = Integer.parseInt(sc.nextLine());
+//		
+//		for (int i=1; i<101; i++) {
+//			System.out.print(i + " ");
+//			if(i%a==0) {
+//				System.out.println();
+//			}
+//			if(a*b==i) {
+//				break;
+//			}
+//		}
+		
+		
+//		문제19)
+//		int com = (int) (Math.random()*2+1);
+//		
+//		Scanner sc = new Scanner(System.in);
+//		int t = 0;
+//		int f = 0;
+//		
+//		for(t=0; t<3;) {
+//			System.out.print("앞면이면 1 뒷면이면 2 입력 : ");
+//			int a = Integer.parseInt(sc.nextLine());
+//			if(com==a) {
+//				t++;
+//			}else {
+//				f++;
+//			}
+//		}
+//		System.out.println(String.format("맞춘 횟수 : %d, 틀린 횟수 : %d", t,f));
+		
+		
+		
+//		문제20)
+//		int com = (int) (Math.random()*6+1);
+//		
+//		Scanner sc = new Scanner(System.in);
+//		int t = 0;
+//		int f = 0;
+//		
+//		for(t=0; t<10;) {
+//			System.out.print("주사위 수는 몇일까요? : ");
+//			int a = Integer.parseInt(sc.nextLine());
+//			if(com==a) {
+//				t++;
+//			}else {
+//				f++;
+//			}
+//		}
+//		System.out.println(String.format("맞춘 횟수 : %d, 틀린 횟수 : %d", t,f));
 
-		for (int i = 2; i < num; i++) {
-			if (num % i == 0) {
-				isPrime = true;
-				break;
-			}
-		}
-
-		if (isPrime) {
-			System.out.println(num + "은(는) 소수가 아닙니다.");
-		} else {
-			System.out.println(num + "은(는) 소수입니다.");
-		}
-
-
+		
+		
 	}
 
 }

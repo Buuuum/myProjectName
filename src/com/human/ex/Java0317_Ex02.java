@@ -95,7 +95,7 @@ public class Java0317_Ex02 {
 //
 //		for(int i=1; i<101; i++) {
 //			if(i%a==0&&i%b==0) {
-//				System.out.println(String.format("%d은(는) %d와 %d의 공통약수", i,a,b));
+//				System.out.println(String.format("%d와 %d는 %d의 공통약수", a,b,i));
 //			}
 //		}
 		

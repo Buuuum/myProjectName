@@ -96,7 +96,6 @@ public class Java0318_Ex02 {
 //		for(int i=a.length-1; i>=0; i--) {
 //			b[count] = a[i];
 //			count++;
-//
 //		}
 //		for(int j=0; j<5; j++) {
 //			b[count] = a[j];
@@ -132,6 +131,8 @@ public class Java0318_Ex02 {
 //			}
 //		}
 //		System.out.println(String.format("1 : %d\n2 : %d\n3 : %d\n4 : %d\n5 : %d\n6 : %d", one,two,three,four,five,six));
+		
+
 		
 	}
 }

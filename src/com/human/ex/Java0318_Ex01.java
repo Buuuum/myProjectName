@@ -1,5 +1,7 @@
 package com.human.ex;
 
+import java.util.Arrays;
+
 public class Java0318_Ex01 {
 
 	
@@ -11,26 +13,24 @@ public class Java0318_Ex01 {
 //		
 //		for(int i=0; i<3; i++) {
 //			a[i] = a[i]+2;
-//			System.out.println(a[i]);
 //		}
-		
+//		System.out.println(Arrays.toString(a));
 		
 		
 //		문제2)
 //		int[] a = new int[10];
 //		
 //		for(int i=0; i<10; i++) {
-//			a[i] = i*3+3;
-//			System.out.println(a[i]);
+//			a[i] = i*3;
 //		}
-		
+//		System.out.println(Arrays.toString(a));
 		
 		
 //		문제3)
 //		int[] a = new int[100];
 //		
 //		for(int i=0; i<100; i++) {
-//			a[i] = i+1;
+//			a[i] = i;
 //			if(i>0&&i%2==0) {
 //				System.out.println(a[i]);
 //			}
@@ -42,7 +42,7 @@ public class Java0318_Ex01 {
 //		int[] a = {12,1,5,3,6,8,5,3};
 //		int sum = 0;
 //		
-//		for(int i=0; i<8; i++) {
+//		for(int i=0; i<a.length; i++) {
 //			sum += a[i];
 //		}
 //		System.out.println(sum);
@@ -53,7 +53,7 @@ public class Java0318_Ex01 {
 //		int[] a = {12,1,5,3,6,8,5,3};
 //		int sum = 0;
 //		
-//		for(int i=0; i<8; i++) {
+//		for(int i=0; i<a.length; i++) {
 //			if(a[i]%2==0) {
 //				sum += a[i];
 //			}
@@ -63,19 +63,19 @@ public class Java0318_Ex01 {
 		
 		
 //		문제6)
-//		int[] a = {12,1,51,3,6,8,5};
-//		int max = a[0];
-//		int min = a[0];
-//		
-//		for(int i=0; i<7; i++) {
-//			if(min > a[i]){
-//                min = a[i];
-//            }
-//            if(max < a[i]) {
-//                max = a[i];
-//            }
-//		}
-//		System.out.println(max+min);
+		int[] a = {12,1,51,3,6,8,5};
+		int max = a[0];
+		int min = a[0];
+		
+		for(int i=0; i<a.length; i++) {
+			if(min > a[i]){
+                min = a[i];
+            }
+            if(max < a[i]) {
+                max = a[i];
+            }
+		}
+		System.out.println(max+min);
 		
 		
 	}

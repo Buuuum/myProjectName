@@ -103,5 +103,97 @@ public class MenuEx {
 //		System.out.println(String.format("천원짜리 : %d개, 오백원짜리 : %d개, 백원짜리 : %d개, 오십원짜리 : %d개, 십원짜리 : %d개", change1000, change500, change100, change50, change10));
 		
 		
+		
+//		문제3)
+//		Scanner sc = new Scanner(System.in);
+//		int menuNum = 0;
+//		int balance = 0;
+//		
+//		while(!(menuNum==6)) {
+//			System.out.println("잔액 : " + balance + "원");
+//			System.out.println("1.사이다(700원) 2.콜라(500원) 3.환타(350원) 4.100원 투입 5.500원 투입 6.반환");
+//			menuNum = Integer.parseInt(sc.nextLine());
+//			
+//			if(menuNum==1) {
+//				if(balance<700) {
+//					System.out.println("잔액이 부족합니다.");
+//				}else {
+//					balance -= 700;
+//					System.out.println("사이다를 뽑았습니다. ");
+//				}
+//			}else if(menuNum==2) {
+//				if(balance<500) {
+//					System.out.println("잔액이 부족합니다.");
+//				}else {
+//					balance -= 500;
+//					System.out.println("콜라를 뽑았습니다. ");
+//				}
+//			}else if(menuNum==3) {
+//				if(balance<350) {
+//					System.out.println("잔액이 부족합니다.");
+//				}else {
+//					balance -= 350;
+//					System.out.println("환타를 뽑았습니다. ");
+//				}
+//			}else if(menuNum==4) {
+//				System.out.println("100원 투입");
+//				balance += 100;
+//			}else if(menuNum==5) {
+//				System.out.println("500원 투입");
+//				balance += 500;
+//			}else {
+//				if(menuNum==6) {
+//					continue;
+//				}
+//				System.out.println("잘못 입력");
+//			}
+//		}
+//		System.out.println(balance + "원 반환");
+		
+		
+		
+//		문제4)
+//		for(int i=1; i<=1000; i++) {
+//			int a = i/10;
+//			int b = i%10;
+//			int c = i/100;
+//			int d = i%100/10;
+//			if(c==3||c==6||c==9) {
+//				if(d==3||d==6||d==9) {
+//					if(b==3||b==6||b==9) {
+//						System.out.println("짝짝짝");
+//					}else {
+//						System.out.println("짝짝");
+//					}
+//				}else if(d==3||d==6||d==9) {
+//					System.out.println("짝짝");
+//				}else {
+//					System.out.println("짝");
+//				}
+//			}else if(d==3||d==6||d==9){
+//				if(b==3||b==6||b==9) {
+//					System.out.println("짝짝");
+//				}else {
+//					System.out.println("짝");
+//				}
+//				
+//			}else if(a==3||a==6||a==9){
+//				if(b==3||b==6||b==9) {
+//					System.out.println("짝짝");
+//				}else {
+//					System.out.println("짝");
+//				}
+//			}else if(b==3||b==6||b==9) {
+//				System.out.println("짝");
+//			}else {
+//				System.out.println(" ");
+//			}
+//		}
+			
+		
+		
+		
+		
+
 	}
 }

@@ -1,5 +1,6 @@
 package com.human.ex;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 import javax.sound.midi.SysexMessage;
@@ -84,10 +85,7 @@ public class Java0318_Ex02 {
 //			b[count] = a[i];
 //			count++;
 //		}
-//		for(int n : b) {
-//			System.out.println(n);
-//		}
-		
+//		System.out.println(Arrays.toString(b));		
 		
 		
 //		문제4-2)
@@ -104,38 +102,36 @@ public class Java0318_Ex02 {
 //			b[count] = a[j];
 //			count++;
 //		}
-//		for(int n : b) {
-//			System.out.println(n);
-//		}
+//		System.out.println(Arrays.toString(b));
 		
 		
 		
 //		문제5)
-		int com = 0;
-		int one = 0;
-		int two = 0;
-		int three = 0;
-		int four = 0;
-		int five = 0;
-		int six = 0;
-		
-		for(int i=0; i<100; i++) {
-			com = (int) (Math.random()*6+1);
-			if(com==1) {
-				one++;
-			}else if(com==2) {
-				two++;
-			}else if(com==3) {
-				three++;
-			}else if(com==4) {
-				four++;
-			}else if(com==5) {
-				five++;
-			}else{
-				six++;
-			}
-		}
-		System.out.println(String.format("1 : %d\n2 : %d\n3 : %d\n4 : %d\n5 : %d\n6 : %d", one,two,three,four,five,six));
+//		int com = 0;
+//		int one = 0;
+//		int two = 0;
+//		int three = 0;
+//		int four = 0;
+//		int five = 0;
+//		int six = 0;
+//		
+//		for(int i=0; i<100; i++) {
+//			com = (int) (Math.random()*6+1);
+//			if(com==1) {
+//				one++;
+//			}else if(com==2) {
+//				two++;
+//			}else if(com==3) {
+//				three++;
+//			}else if(com==4) {
+//				four++;
+//			}else if(com==5) {
+//				five++;
+//			}else{
+//				six++;
+//			}
+//		}
+//		System.out.println(String.format("1 : %d\n2 : %d\n3 : %d\n4 : %d\n5 : %d\n6 : %d", one,two,three,four,five,six));
 		
 	}
 }

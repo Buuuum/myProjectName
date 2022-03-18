@@ -192,8 +192,84 @@ public class MenuEx {
 			
 		
 		
-		
-		
+//		문제5)
+		Scanner sc = new Scanner(System.in);
+		int com1 = 0;
+		int com2 = 0;
+		int menu = 1;
+		int answer = 0;
+		int t = 0;
+		int result = 0;
+
+		while(!(menu==0)) {
+			System.out.print("시작(1) 종료(0) : ");
+			menu = Integer.parseInt(sc.nextLine());
+			if(menu==1) {
+				System.out.println("프로그램을 시작합니다.");
+				System.out.println(String.format("1단계 문제"));
+				while(t<=2){
+					com1 = (int)(Math.random()*10+1);
+					com2 = (int)(Math.random()*10+1);
+					result = com1+com2;
+					System.out.println(String.format("%d + %d = ", com1, com2));
+					answer = Integer.parseInt(sc.nextLine());
+					if(answer==result) {
+						System.out.println("정답입니다.");
+						t++;
+					}else {
+						System.out.println("틀렸습니다.");
+					}
+				}
+				System.out.println(String.format("2단계 문제"));
+				t = 0;
+				while(t<=2){
+					com1 = (int)(Math.random()*10+1);
+					com2 = (int)(Math.random()*10+1);
+					result = com1-com2;
+					System.out.println(String.format("%d - %d = ", com1, com2));
+					answer = Integer.parseInt(sc.nextLine());
+					if(answer==result) {
+						System.out.println("정답입니다.");
+						t++;
+					}else {
+						System.out.println("틀렸습니다.");
+					}
+				}
+				System.out.println(String.format("3단계 문제"));
+				t = 0;
+				while(t<=2){
+					com1 = (int)(Math.random()*10+1);
+					com2 = (int)(Math.random()*10+1);
+					result = com1*com2;
+					System.out.println(String.format("%d * %d = ", com1, com2));
+					answer = Integer.parseInt(sc.nextLine());
+					if(answer==result) {
+						System.out.println("정답입니다.");
+						t++;
+					}else {
+						System.out.println("틀렸습니다.");
+					}
+				}
+				System.out.println(String.format("4단계 문제"));
+				t = 0;
+				while(t<=2){
+					com1 = (int)(Math.random()*10+1);
+					com2 = (int)(Math.random()*10+1);
+					result = com1/com2;
+					System.out.println(String.format("%d / %d = ", com1, com2));
+					answer = Integer.parseInt(sc.nextLine());
+					if(answer==result) {
+						System.out.println("정답입니다.");
+						t++;
+					}else {
+						System.out.println("틀렸습니다.");
+					}
+				}
+				System.out.println("축하합니다.");
+			}
+		}
+		System.out.println("프로그램을 종료합니다.");
+
 
 	}
 }

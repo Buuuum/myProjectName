@@ -219,11 +219,12 @@ public class Java0317_Ex02 {
 		
 		
 //		문제10)
-//		int sum = 1;
-//		for(int i=1; sum<101; i++) {
-//			System.out.println(String.format("%d : %d", i, sum));
+//		int i = 0;
+//		int sum = 0;
+//		for(i=1; sum<101-i; i++) {
 //			sum += i;
 //		}
+//		System.out.println(String.format("%d : %d", i, sum));
 		
 		
 //		문제11)

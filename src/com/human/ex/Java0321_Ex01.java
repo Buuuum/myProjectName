@@ -62,7 +62,11 @@ public class Java0321_Ex01 {
 //			switch(input) {
 //			case 1:
 //				for(int i=0; i<student.length; i++) {
-//					System.out.println((i+1) + "번 : " + student[i]);
+//					if(student[i]==true) {
+//						System.out.println((i+1) + "번 : 출석");
+//					}else {
+//						System.out.println((i+1) + "번 : 결석");
+//					}
 //				}
 //				break;
 //			case 2:
@@ -316,7 +320,7 @@ public class Java0321_Ex01 {
 //			}else if(b==3||b==6||b==9) {
 //				System.out.println("짝");
 //			}else {
-//				System.out.println(" ");
+//				System.out.println(i);
 //			}
 //		}
 			
@@ -474,6 +478,7 @@ public class Java0321_Ex01 {
 //			}
 //		}
 
+		
 		
 		
 		

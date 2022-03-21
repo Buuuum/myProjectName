@@ -132,7 +132,15 @@ public class Java0318_Ex02 {
 //		}
 //		System.out.println(String.format("1 : %d\n2 : %d\n3 : %d\n4 : %d\n5 : %d\n6 : %d", one,two,three,four,five,six));
 		
-
+		
+		
+//		int[] a = new int[6];
+//		
+//		for(int i=0; i<100; i++) {
+//			int num = (int) (Math.random()*6);
+//				a[num]++;
+//		}
+//		System.out.println(Arrays.toString(a));
 		
 	}
 }

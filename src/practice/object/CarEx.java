@@ -1,4 +1,4 @@
-package com.human.ex2;
+package practice.object;
 
 public class CarEx {
 	

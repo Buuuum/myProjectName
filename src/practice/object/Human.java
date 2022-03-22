@@ -1,4 +1,4 @@
-package com.human.ex3;
+package practice.object;
 
 import java.util.Objects;
 

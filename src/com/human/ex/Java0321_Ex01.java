@@ -327,24 +327,24 @@ public class Java0321_Ex01 {
 		
 		
 
-		for(int i=0;i<1000;i++){//3번
-			int num=i;
-			int temp=num;
-			String str="";
-			boolean isFlag=true;
-			while(num!=0) {
-				if((num%10%3==0)&&(num%10!=0)) {
-					str=str+"짝";
-					isFlag=false;
-				}
-				num=num/10;
-			}
-			if(isFlag) {
-				System.out.println(temp);
-			}else {
-				System.out.println(str);
-			}
-		}
+//		for(int i=0;i<1000;i++){//3번
+//			int num=i;
+//			int temp=num;
+//			String str="";
+//			boolean isFlag=true;
+//			while(num!=0) {
+//				if((num%10%3==0)&&(num%10!=0)) {
+//					str=str+"짝";
+//					isFlag=false;
+//				}
+//				num=num/10;
+//			}
+//			if(isFlag) {
+//				System.out.println(temp);
+//			}else {
+//				System.out.println(str);
+//			}
+//		}
 		
 		
 		

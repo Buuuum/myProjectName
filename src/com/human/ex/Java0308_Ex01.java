@@ -44,13 +44,13 @@ public class Java0308_Ex01 {
 //		문제4)
 //		Scanner sc = new Scanner(System.in);
 //		
-//		System.out.println("x 값 : ");
+//		System.out.print("x 값 : ");
 //		int a =Integer.parseInt(sc.nextLine());
-//		System.out.println("y 값 : ");
+//		System.out.print("y 값 : ");
 //		int b =Integer.parseInt(sc.nextLine());
-//		System.out.println("x1 값 : ");
+//		System.out.print("x1 값 : ");
 //		int c =Integer.parseInt(sc.nextLine());
-//		System.out.println("y1 값 : ");
+//		System.out.print("y1 값 : ");
 //		int d =Integer.parseInt(sc.nextLine());
 //		
 //		double result = Math.sqrt(Math.pow(Math.abs(c-a), 2) + Math.pow(Math.abs(d-b), 2));

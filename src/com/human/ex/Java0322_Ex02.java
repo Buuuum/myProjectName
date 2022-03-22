@@ -1,6 +1,6 @@
 package com.human.ex;
 
-public class Java0321_Ex02 {
+public class Java0322_Ex02 {
 
 	public static void main(String[] args) {
 		

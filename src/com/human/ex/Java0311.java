@@ -2,7 +2,7 @@ package com.human.ex;
 
 import java.util.Arrays;
 
-import com.human.ex3.Human;
+import practice.object.Human;
 
 public class Java0311 {
 	

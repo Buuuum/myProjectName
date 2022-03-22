@@ -1,6 +1,6 @@
-package com.human.ex3;
+package practice.object;
 
-public class JavaClass {
+public class HumanEx {
 
 	public static void main(String[] args) {
 

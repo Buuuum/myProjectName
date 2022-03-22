@@ -28,34 +28,27 @@ public class Java0322_Ex02 {
 //			}
 //		}
 		
-//		int a = 1 ;
-//		for(int i=1; i<=9; i++) {
-//			for(int j=1; j<=3; j++) {
-//				System.out.print(j+"*"+a+"="+j*a+"  ");
-//			}
-//			a++;
-//			System.out.println();
-//		}
-//		System.out.println();
-//		a = 1 ;
-//		for(int i=1; i<=9; i++) {
-//			for(int j=4; j<=6; j++) {
-//				System.out.print(j+"*"+a+"="+j*a+"  ");
-//			}
-//			a++;
-//			System.out.println();
-//		}
-//		System.out.println();
-//		a = 1 ;
-//		for(int i=1; i<=9; i++) {
-//			for(int j=7; j<=9; j++) {
-//				System.out.print(j+"*"+a+"="+j*a+"  ");
-//			}
-//			a++;
-//			System.out.println();
-//		}
 	
-	
+	for(int i=1; i<=9; i++) {
+		for(int j=1; j<=3; j++) {
+			System.out.print(j+"*"+i+"="+j*i+" ");
+		}
+		System.out.println();
+	}
+	System.out.println();
+	for(int i=1; i<=9; i++) {
+		for(int j=4; j<=6; j++) {
+			System.out.print(j+"*"+i+"="+j*i+" ");
+		}
+		System.out.println();
+	}
+	System.out.println();
+	for(int i=1; i<=9; i++) {
+		for(int j=7; j<=9; j++) {
+			System.out.print(j+"*"+i+"="+j*i+" ");
+		}
+		System.out.println();
+	}
 	
 	}
 }

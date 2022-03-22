@@ -345,9 +345,30 @@ public class Java0322_Ex02 {
 		
 		
 //		Q20)
+//		int i,j;
+//		int sign=1;
+//		for(i=1;i>0;i+=sign) {
+//			for(j=0;j<5;j++) {
+//				if(i>j) {
+//					System.out.print("*");
+//				}else {
+//					System.out.print(" ");
+//				}	
+//			}
+//			System.out.print(" ");
+//			for(j=0;j<5;j++) {
+//				if(j<=4-i) {
+//					System.out.print(" ");
+//				}else {
+//					System.out.print("*");
+//				}				
+//			}
+//			System.out.println("");
+//			if(i==5) {
+//				sign=-1;
+//			}
+//		}
 
-		
-		
 		
 		
 //		Q21)

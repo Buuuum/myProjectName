@@ -100,5 +100,14 @@ public class Java0322_Ex01 {
 //		}
 		
 		
+		
+//		for(int i=0; i<3; i++) {
+//			for(int j=1; j<5; j++) {
+//				for(int k=0; k<4; k++) {
+//					System.out.print(j);
+//				}
+//			}
+//		}
+		
 	}
 }

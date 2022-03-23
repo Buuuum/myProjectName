@@ -132,16 +132,17 @@ public class Java0317_Ex02 {
 //		int f = 0;
 //		int sum = 0;
 //		for(t=0; t<3;){
-//			System.out.print("숫자 입력 : ");
+//			System.out.print("10이하의 수 입력 : ");
 //			int a = Integer.parseInt(sc.nextLine());
 //			if(0<a&&a<=10) {
 //				sum+=a;
 //				t++;
 //			}else {
 //				f++;
+//				System.out.println("10이하의 수가 아닙니다.");
 //			}
 //		}
-//		System.out.println(String.format("true:%d, false:%d, true 총합:%d", t,f,sum));
+//		System.out.println(String.format("맞은 횟수:%d, 틀린 횟수:%d, 맞은 수 총합:%d", t,f,sum));
 
 		
 //		문제7)
@@ -373,19 +374,21 @@ public class Java0317_Ex02 {
 		
 		
 //		문제19)
-//		int com = (int) (Math.random()*2+1);
-//		
 //		Scanner sc = new Scanner(System.in);
+//		int com = 0;
 //		int t = 0;
 //		int f = 0;
 //		
 //		for(t=0; t<3;) {
-//			System.out.print("앞면이면 1 뒷면이면 2 입력 : ");
+//			com = (int) (Math.random()*2);
+//			System.out.print("앞면이면 0 뒷면이면 1 입력 : ");
 //			int a = Integer.parseInt(sc.nextLine());
 //			if(com==a) {
 //				t++;
+//				System.out.println("맞췄습니다.");
 //			}else {
 //				f++;
+//				System.out.println("틀렸습니다.");
 //			}
 //		}
 //		System.out.println(String.format("맞춘 횟수 : %d, 틀린 횟수 : %d", t,f));

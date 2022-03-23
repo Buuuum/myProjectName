@@ -59,7 +59,7 @@ public class Java0314_Ex01 {
 //		int n = Integer.parseInt(sc.nextLine());
 //		int h = n/3600;
 //		int m = n%3600/60;
-//		int s = n%3600%60;
+//		int s = n%60;
 //		System.out.println(String.format("%d시 %d분 %d초", h, m, s));
 		
 		

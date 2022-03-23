@@ -482,63 +482,63 @@ public class Java0315_Ex01 {
 		
 		
 //		문제13)
-		Scanner sc = new Scanner(System.in);
-		System.out.println("번 돈은 얼마입니까? (단위:만원) : ");
-		int inCome = Integer.parseInt(sc.nextLine());
-		int money = 0;
-		int tax = 0;
-		int tax2 = 0;
-		
-		if(inCome<=1200) {
-			tax = (int) (inCome*0.06);
-			money = (int) (inCome-tax);
-			System.out.println("번 돈(세전) : "+ inCome);
-			System.out.println("세금 : " + tax);
-			System.out.println("번 돈(세후) : " + money);
-		}else if(inCome>=1200&&inCome<4600) {
-			tax = (int) (1200*0.06);
-			tax2 = (int) ((inCome-1200)*0.15);
-			money = (int) inCome-(tax+tax2);
-			System.out.println("번 돈(세전) : "+ inCome);
-			System.out.println("세금 : " + (tax + tax2));
-			System.out.println("번 돈(세후) : " + money);
-		}else if(inCome>=4600&&inCome<8800) {
-			tax = (int) (4600*0.15);
-			tax2 = (int) ((inCome-4600)*0.24);
-			money = (int) inCome-(tax+tax2);
-			System.out.println("번 돈(세전) : "+ inCome);
-			System.out.println("세금 : " + (tax + tax2));
-			System.out.println("번 돈(세후) : " + money);
-		}else if(inCome>=8800&&inCome<15000) {
-			tax = (int) (8800*0.24);
-			tax2 = (int) ((inCome-8800)*0.35);
-			money = (int) inCome-(tax+tax2);
-			System.out.println("번 돈(세전) : "+ inCome);
-			System.out.println("세금 : " + (tax + tax2));
-			System.out.println("번 돈(세후) : " + money);
-		}else if(inCome>=15000&&inCome<30000) {
-			tax = (int) (15000*0.35);
-			tax2 = (int) ((inCome-15000)*0.38);
-			money = (int) inCome-(tax+tax2);
-			System.out.println("번 돈(세전) : "+ inCome);
-			System.out.println("세금 : " + (tax + tax2));
-			System.out.println("번 돈(세후) : " + money);
-		}else if(inCome>=30000&&inCome<50000) {
-			tax = (int) (30000*0.38);
-			tax2 = (int) ((inCome-30000)*0.40);
-			money = (int) inCome-(tax+tax2);
-			System.out.println("번 돈(세전) : "+ inCome);
-			System.out.println("세금 : " + (tax + tax2));
-			System.out.println("번 돈(세후) : " + money);
-		}else if(inCome>50000) {
-			tax = (int) (50000*0.40);
-			tax2 = (int) ((inCome-50000)*0.42);
-			money = (int) inCome-(tax+tax2);
-			System.out.println("번 돈(세전) : "+ inCome);
-			System.out.println("세금 : " + (tax + tax2));
-			System.out.println("번 돈(세후) : " + money);
-		}
-		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("번 돈은 얼마입니까? (단위:만원) : ");
+//		int inCome = Integer.parseInt(sc.nextLine());
+//		int money = 0;
+//		int tax = 0;
+//		int tax2 = 0;
+//		
+//		if(inCome<=1200) {
+//			tax = (int) (inCome*0.06);
+//			money = (int) (inCome-tax);
+//			System.out.println("번 돈(세전) : "+ inCome);
+//			System.out.println("세금 : " + tax);
+//			System.out.println("번 돈(세후) : " + money);
+//		}else if(inCome>=1200&&inCome<4600) {
+//			tax = (int) (1200*0.06);
+//			tax2 = (int) ((inCome-1200)*0.15);
+//			money = (int) inCome-(tax+tax2);
+//			System.out.println("번 돈(세전) : "+ inCome);
+//			System.out.println("세금 : " + (tax + tax2));
+//			System.out.println("번 돈(세후) : " + money);
+//		}else if(inCome>=4600&&inCome<8800) {
+//			tax = (int) (4600*0.15);
+//			tax2 = (int) ((inCome-4600)*0.24);
+//			money = (int) inCome-(tax+tax2);
+//			System.out.println("번 돈(세전) : "+ inCome);
+//			System.out.println("세금 : " + (tax + tax2));
+//			System.out.println("번 돈(세후) : " + money);
+//		}else if(inCome>=8800&&inCome<15000) {
+//			tax = (int) (8800*0.24);
+//			tax2 = (int) ((inCome-8800)*0.35);
+//			money = (int) inCome-(tax+tax2);
+//			System.out.println("번 돈(세전) : "+ inCome);
+//			System.out.println("세금 : " + (tax + tax2));
+//			System.out.println("번 돈(세후) : " + money);
+//		}else if(inCome>=15000&&inCome<30000) {
+//			tax = (int) (15000*0.35);
+//			tax2 = (int) ((inCome-15000)*0.38);
+//			money = (int) inCome-(tax+tax2);
+//			System.out.println("번 돈(세전) : "+ inCome);
+//			System.out.println("세금 : " + (tax + tax2));
+//			System.out.println("번 돈(세후) : " + money);
+//		}else if(inCome>=30000&&inCome<50000) {
+//			tax = (int) (30000*0.38);
+//			tax2 = (int) ((inCome-30000)*0.40);
+//			money = (int) inCome-(tax+tax2);
+//			System.out.println("번 돈(세전) : "+ inCome);
+//			System.out.println("세금 : " + (tax + tax2));
+//			System.out.println("번 돈(세후) : " + money);
+//		}else if(inCome>50000) {
+//			tax = (int) (50000*0.40);
+//			tax2 = (int) ((inCome-50000)*0.42);
+//			money = (int) inCome-(tax+tax2);
+//			System.out.println("번 돈(세전) : "+ inCome);
+//			System.out.println("세금 : " + (tax + tax2));
+//			System.out.println("번 돈(세후) : " + money);
+//		}
+//		
 		
 		
 	}

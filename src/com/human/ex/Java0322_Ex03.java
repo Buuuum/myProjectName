@@ -204,7 +204,8 @@ public class Java0322_Ex03 {
 //			for(int j = 1; j <= 5; j++) {
 //				System.out.printf("%2d ", i);
 //				i++;
-//			} i += 4;
+//			} 
+//			i += 4;
 //			if(i>25) {
 //				break;
 //			}
@@ -212,7 +213,8 @@ public class Java0322_Ex03 {
 //			for(int j = 5; j > 0; j--) {
 //				System.out.printf("%2d ", i);
 //				--i;
-//			} i += 6;
+//			}
+//			i += 6;
 //			System.out.println();
 //		}
 		

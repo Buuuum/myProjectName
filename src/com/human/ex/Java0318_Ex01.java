@@ -75,7 +75,8 @@ public class Java0318_Ex01 {
 //                max = a[i];
 //            }
 //		}
-//		System.out.println(max+min);
+//		System.out.println(min);
+//		System.out.println(max);
 		
 		
 	}

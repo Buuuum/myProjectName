@@ -36,7 +36,7 @@ public class Java0318_Ex02 {
 //		String[] a = new String[5];
 //		
 //		for(int i=0; i<5; i++) {
-//			System.out.print(String.format("%d번 인덱스에 넣을 문자는? : ", i));
+//			System.out.print(String.format("%d번 인덱스에 넣을 문자열은? : ", i));
 //			String input = sc.nextLine();
 //			a[i] = input;
 //		}
@@ -55,12 +55,12 @@ public class Java0318_Ex02 {
 //		문제3)
 //		Scanner sc = new Scanner(System.in);
 //		
-//		System.out.println("배열 크기 입력 : ");
+//		System.out.print("배열 크기 입력 : ");
 //		int a = Integer.parseInt(sc.nextLine());
 //		int[] arr = new int[a];
 //		int count = 0;
 //		
-//		for(int i=0; i<a; i++) {
+//		for(int i=0; i<arr.length; i++) {
 //			for(int j=1; j<=3; j++) {
 //				if(count==a) {
 //					break;
@@ -69,8 +69,8 @@ public class Java0318_Ex02 {
 //					count++;
 //				}
 //			}
-//			System.out.println(arr[i]);
 //		}
+//		System.out.print(Arrays.toString(arr));
 		
 		
 		

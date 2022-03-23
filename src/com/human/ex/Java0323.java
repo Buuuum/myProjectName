@@ -46,25 +46,37 @@ public class Java0323 {
 		
 
 
+//		int [] arr= {7,5,9,0,3,1,6,2,4,8};
+//		//버블정렬
+//		for(int j=0;j<arr.length-1;j++) {
+//			for(int i=0;i<arr.length-1;i++) {
+//				if(arr[i] >arr[i+1]) {
+//					int temp=arr[i];
+//					arr[i]=arr[i+1];
+//					arr[i+1]=temp;
+//				}
+//			}
+//		}
+//		System.out.println(Arrays.toString(arr));
 		
-
-
-		int [] arr= {7,5,9,0,3,1,6,2,4,8};
-		for(int i=0;i<arr.length;i++) {
-			System.out.print(arr[i]+" ");
-		}
-		System.out.println();
-		//버블정렬
-		for(int j=0;j<arr.length-1;j++) {
-			for(int i=0;i<arr.length-1;i++) {
-				if(arr[i] >arr[i+1]) {
-					int temp=arr[i];
-					arr[i]=arr[i+1];
-					arr[i+1]=temp;
+		
+		
+		int[] a = {5,2,8,5,7,1};
+		int temp = 0;
+		for(int i=a.length-1; i>0; i--) {
+			int maxIndex = 0;
+			int selectIndex = i;
+			for(int j=0; j<=selectIndex; j++) {
+				if(a[j] > a[maxIndex]) {
+					maxIndex = j;
 				}
 			}
+			temp = a[maxIndex];
+			a[maxIndex] = a[selectIndex];
+			a[selectIndex] = temp;
 		}
-		System.out.println(Arrays.toString(arr));
+		System.out.println(Arrays.toString(a));
+		
 		
 		
 	}

@@ -1,5 +1,6 @@
 package com.human.ex;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Java0322_Ex03 {
@@ -83,22 +84,21 @@ public class Java0322_Ex03 {
 		
 		
 //		문제7)
-//		int plus = 0;
-//		int minus = 0;
+//		int sum = 0;
 //		for(int i=1; i<=100; i++) {
 //			if(i%2==0) {
-//				minus -= i;
+//				sum-=i;
 //			}else {
-//				plus += i;
+//				sum+=i;
 //			}
 //		}
-//		System.out.println(plus+minus);
+//		System.out.println(sum);
 		
 		
 		
 //		문제8)
 //		double result = 0;
-//		for(int i=1; i<=99; i++) {
+//		for(double i=1; i<100; i++) {
 //			result += i/(i+1);
 //		}
 //		System.out.println(result);
@@ -123,10 +123,103 @@ public class Java0322_Ex03 {
 //		
 //		String color = "빨강";
 //		int brightness = 50;
+//		int menu = 1;
+//		
+//		while(!(menu==0)) {
+//			System.out.println(String.format("현재 색상은 %s이고 밝기는 %d입니다.", color, brightness));
+//			System.out.print("색상 변경:1, 밝기 변경:2, 종료:0");
+//			menu = Integer.parseInt(sc.nextLine());
+//
+//			switch(menu) {
+//			case 1:
+//				System.out.print("어떤 색상으로 변경하시겠습니까?(빨강,노랑,파랑) : ");
+//				String colorInput = sc.nextLine();
+//				if(colorInput.equals("빨강")) {
+//					color = "빨강";
+//					System.out.println("색상이 빨강으로 변경되었습니다.");
+//				}else if(colorInput.equals("노랑")) {
+//					color = "노랑";
+//					System.out.println("색상이 노랑으로 변경되었습니다.");
+//				}else if(colorInput.equals("파랑")) {
+//					color = "파랑";
+//					System.out.println("색상이 파랑으로 변경되었습니다.");
+//				}else {
+//					System.out.println("잘못 입력하셨습니다.");
+//				}
+//				break;
+//			case 2:
+//				System.out.print("밝기 올림:1, 밝기 내림:2 : ");
+//				int brightnessInput = Integer.parseInt(sc.nextLine());
+//				if(brightnessInput==1) {
+//					if(brightness>100) {
+//						System.out.println("밝기가 최대입니다.");
+//					}else {
+//						System.out.println("밝기를 올립니다.");
+//						brightness+=1;
+//					}
+//				}else if(brightnessInput==2) {
+//					if(brightness<=0) {
+//						System.out.println("밝기를 더 내릴 수 없습니다.");
+//					}else {
+//						System.out.println("밝기를 내립니다");
+//						brightness-=1;
+//					}
+//				}else {
+//					System.out.println("잘못 입력하셨습니다.");
+//				}
+//				break;
+//			case 0:
+//				System.out.println("종료합니다.");
+//				break;
+//				default:
+//					System.out.println("잘못 입력하셨습니다.");
+//			}
+//		}
+		
+		
+//		문제11)
+//		int sum = 0;
+//		for(int i=1; i<=100; i++) {
+//			if(i%2==0) {
+//				sum-=i;
+//			}else {
+//				sum+=i;
+//			}
+//		}
+//		System.out.println(sum);
 		
 		
 		
-//		문제 13)
+//		문제12)
+//		double result = 0;
+//		for(double i=1; i<100; i++) {
+//			result += i/(i+1);
+//		}
+//		System.out.println(result);
+		
+		
+		
+//		문제13)
+//		for(int i=1; i<=25;) {
+//			for(int j = 1; j <= 5; j++) {
+//				System.out.printf("%2d ", i);
+//				i++;
+//			} i += 4;
+//			if(i>25) {
+//				break;
+//			}
+//			System.out.println();
+//			for(int j = 5; j > 0; j--) {
+//				System.out.printf("%2d ", i);
+//				--i;
+//			} i += 6;
+//			System.out.println();
+//		}
+		
+		
+		
+//		문제15)
+		
 		
 		
 		

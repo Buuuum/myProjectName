@@ -220,6 +220,33 @@ public class Java0322_Ex03 {
 		
 		
 		
+//		문제14)
+		Scanner sc = new Scanner(System.in);
+		System.out.print("달의 시작 요일 : ");
+		String month = sc.nextLine();
+		System.out.print("일수 : ");
+		int day = Integer.parseInt(sc.nextLine());
+		int a = 1;
+		switch(month) {
+		case "월":
+			for(int i=1; i<=5; i++) {
+				System.out.println("월\t화\t수\t목\t금\t토\t일");
+				for(int j=a; j<=day; j++) {
+					System.out.print(j+"\t");
+					a+=8;
+					if(j%7==0) {
+						System.out.println();
+					}
+					break;
+				}
+			}
+		}
+		
+		
+		
+		
+		
+		
 //		문제15)
 		
 		

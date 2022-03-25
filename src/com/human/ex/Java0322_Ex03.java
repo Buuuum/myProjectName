@@ -247,7 +247,38 @@ public class Java0322_Ex03 {
 		
 		
 //		문제15)
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int[] arr = {1,2,3,4,5,6,7,8,9};
+//		int[] arr2 = {1,2,3,4,5,6,7,8,9};
+//		
+//		System.out.print("이동 방향은?(왼쪽/오른쪽) : ");
+//		String move = sc.nextLine();
+//		System.out.print("이동 칸 수는? : ");
+//		int num1 = Integer.parseInt(sc.nextLine());
+//		System.out.print("채울 숫자는? : ");
+//		int num2 = Integer.parseInt(sc.nextLine());
+//		
+//		if(move.equals("왼쪽")) {
+//			for (int i = 0; i < (arr.length - num1); i++) {
+//				arr[i] = arr[num1 + i];
+//			}
+//			for (int i = 9; i - num1 < arr.length; i++) {
+//				arr[i - num1] = num2;
+//			}
+//		}else if(move.equals("오른쪽")) {
+//			for (int i = 0; i < (arr.length - num1); i++) {
+//				arr[num1 + i] = arr2[i];
+//			}
+//			for (int i = 0; i < num1; i++) {
+//				arr[i] = num2;
+//			}
+//		}
+//		System.out.println(Arrays.toString(arr));
+	
 		
+		
+//		문제16)
 		
 		
 		

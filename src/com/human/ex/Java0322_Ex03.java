@@ -221,65 +221,29 @@ public class Java0322_Ex03 {
 		
 		
 //		문제14)
-		Scanner sc = new Scanner(System.in);
-//		System.out.print("달의 시작 요일 : ");
-		String month = "수";//sc.nextLine();
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("월:1 화:2 수:3 목:4 금:5 토:6 일:7");
+//		System.out.print("달의 시작 요일 입력 : ");
+//		int month = Integer.parseInt(sc.nextLine());
 //		System.out.print("일수 : ");
-		int day = 28;//Integer.parseInt(sc.nextLine());
-		int a = 1;
-		int b = 0;
-		switch(month) {
-		case "월":
-			for(int i=1; i<=5; i++) {
-				System.out.println("월\t화\t수\t목\t금\t토\t일");
-				for(int j=a; j<=day; j++) {
-					System.out.print(j+"\t");
-					a++;
-					if(j%7==0) {
-						System.out.println();
-					break;
-					}
-				}
-			}
-		case "화":
-			b=6;
-			for(int i=1; i<=5; i++) {
-				System.out.println("월\t화\t수\t목\t금\t토\t일");
-				for(int j=a; j<=day; j++) {
-					if(j==1) {
-						System.out.print("\t");
-					}
-					System.out.print(j+"\t");
-					a++;
-					if(j==b) {
-						System.out.println();
-						b+=7;
-						break;
-					}
-				}
-			}
-		case "수":
-			b=5;
-			for(int i=1; i<=5; i++) {
-				System.out.println("월\t화\t수\t목\t금\t토\t일");
-				for(int j=a; j<=day; j++) {
-					if(j==1) {
-						System.out.print("\t\t");
-					}
-					System.out.print(j+"\t");
-					a++;
-					if(j==b) {
-						System.out.println();
-						b+=7;
-						break;
-					}
-				}
-			}
-		}
-		
-		
-		
-		
+//		int day = Integer.parseInt(sc.nextLine());
+//		int a = 1;
+//		int b = 7;
+//		System.out.println("월\t화\t수\t목\t금\t토\t일");
+//		for(int i=a; i<=day; i++) {
+//			for(int j=1; j<month; j++) {
+//				if(i==1) {
+//					System.out.print("\t");
+//				}
+//			}
+//			System.out.print(i+"\t");
+//
+//			a++;
+//			if(i==b-month+1) {
+//				System.out.println();
+//				b+=7;
+//			}
+//		}
 		
 		
 //		문제15)

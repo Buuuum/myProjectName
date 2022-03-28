@@ -38,7 +38,6 @@ public class Blackjack {
 
 		//		p1Deck[p1DeckIndex++] = deck[deckIndex++];
 		//		p2Deck[p2DeckIndex++] = deck[deckIndex++];
-		//
 
 		Scanner sc = new Scanner(System.in);
 		boolean isP1PlayFlag = true;
@@ -58,21 +57,19 @@ public class Blackjack {
 						System.out.println("Deck["+i+"] : " + cardshape[p1Deck[i]/13]+" "+cardNumber[p1Deck[i]%13]);
 					}
 					for(int i=0;i<p1DeckIndex;i++) {
-						if(p1Deck[i]%13==0) {
-							p1Score+=11;
+						if(p1Deck[i]%13==0&&p1Score>20) {
+							p1Score+=1;
+						}else if(p1Deck[i]%13==0) {
+							p2Score+=11;
 						}else if(p1Deck[i]%13<10) {
 							p1Score+=p1Deck[i]%13+1;
 						}else {
-							p1Score+=10;
+							p1Score+=11;
 						} 
 					}
-					for(int i=0;p1Score>21;i++) {
-						if(p1Deck[i]==0) {
-							p1Score=p1Score-10;
-						} 
-					}
-					System.out.println("p1 점수 : " + p1Score);
 					if(p1Score>21) {
+						System.out.println("p1 점수 : " + p1Score);
+						System.out.println("p1 패");
 						break;	
 					}
 				}else {
@@ -91,30 +88,26 @@ public class Blackjack {
 						System.out.println("Deck["+i+"] : " + cardshape[p2Deck[i]/13]+" "+cardNumber[p2Deck[i]%13]);
 					}
 					for(int i=0;i<p2DeckIndex;i++) {
-						if(p2Deck[i]%13==0) {
+						if(p2Deck[i]%13==0&&p2Score>20) {
+							p2Score+=1;
+						}else if(p2Deck[i]%13==0) {
 							p2Score+=11;
 						}else if(p2Deck[i]%13<10) {
 							p2Score+=p2Deck[i]%13+1;
 						}else {
-							p2Score+=10;
-						} 
-					}
-					for(int i=0;p2Score>21;i++) {
-						if(p2Deck[i]==0) {
-							p2Score=p2Score-10;
+							p2Score+=11;
 						} 
 					}
 					if(p2Score>21) {
+						System.out.println("p2 점수 : " + p2Score);
+						System.out.println("p2 패");
 						break;	
 					}
-					System.out.println("p2 점수 : " + p2Score);
 				}else {
 					System.out.println("p2 카드 받기 종료\n");
 					isP2PlayFlag = false;
 				}
 			}
-			
-			
 
 			if(!isP1PlayFlag&&!isP2PlayFlag) {
 				System.out.println("p1");
@@ -126,7 +119,7 @@ public class Blackjack {
 				for(int i=0; i<p2DeckIndex; i++) {
 					System.out.println("Deck["+i+"] : " + cardshape[p2Deck[i]/13]+" "+cardNumber[p2Deck[i]%13]);
 				}
-				System.out.println("p1 점수 : " + p1Score);
+				System.out.println("\np1 점수 : " + p1Score);
 				System.out.println("p2 점수 : " + p2Score);
 				if(p1Score>21) {
 					System.out.println("p1이 이겼습니다");

@@ -5,12 +5,6 @@ import java.util.Scanner;
 
 public class Blackjack {
 
-	private static int p1DeckIndeck;
-	private static int[] p1Deck;
-	private static String[] cardNumber;
-	private static String[] cardshape;
-	private static int p2DeckIndeck;
-	private static int[] p2Deck;
 	
 	
 	public static void main(String[] args) {
@@ -39,25 +33,28 @@ public class Blackjack {
 
 		int[] p1Deck = new int[11];
 		int[] p2Deck = new int[11];
-		int p1DeckIndeck = 0;
-		int p2DeckIndeck = 0;
+		int p1DeckIndex = 0;
+		int p2DeckIndex = 0;
 
 
-//		p1Deck[p1DeckIndeck++] = deck[deckIndex++];
-//		p2Deck[p2DeckIndeck++] = deck[deckIndex++];
+//		p1Deck[p1DeckIndex++] = deck[deckIndex++];
+//		p2Deck[p2DeckIndex++] = deck[deckIndex++];
 //
 		
 		Scanner sc = new Scanner(System.in);
 		boolean isP1PlayFlag = true;
 		boolean isP2PlayFlag = true;
 	
-		while((isP1PlayFlag||isP2PlayFlag)&&p1DeckIndeck<p1Deck.length&&p2DeckIndeck<p2Deck.length) {
+		while((isP1PlayFlag||isP2PlayFlag)&&p1DeckIndex<p1Deck.length&&p2DeckIndex<p2Deck.length) {
 			if(isP1PlayFlag) {
 				System.out.print("\np1 카드를 받으시겠습니까?(1.yes 2.no) : ");
 				String input = sc.nextLine();
 				if(input.equals("1")) {
-					p1Deck[p1DeckIndeck++] = deck[deckIndex++];
-				displayP1Deck();
+					p1Deck[p1DeckIndex++] = deck[deckIndex++];
+					System.out.println("p1");
+					for(int i=0; i<p1DeckIndex; i++) {
+						System.out.println("Deck["+i+"] : " + cardshape[p1Deck[i]/13]+" "+cardNumber[p1Deck[i]%13]);
+					}
 				}else {
 					System.out.println("p1 카드 받기 종료\n");
 					isP1PlayFlag = false;
@@ -67,8 +64,11 @@ public class Blackjack {
 				System.out.print("\np2 카드를 받으시겠습니까?(1.yes 2.no) : ");
 				String input = sc.nextLine();
 				if(input.equals("1")) {
-					p2Deck[p2DeckIndeck++] = deck[deckIndex++];
-					displayP2Deck();
+					p2Deck[p2DeckIndex++] = deck[deckIndex++];
+					System.out.println("p2");
+					for(int i=0; i<p2DeckIndex; i++) {
+						System.out.println("Deck["+i+"] : " + cardshape[p2Deck[i]/13]+" "+cardNumber[p2Deck[i]%13]);
+					}
 				}else {
 					System.out.println("p2 카드 받기 종료\n");
 					isP2PlayFlag = false;
@@ -76,12 +76,12 @@ public class Blackjack {
 			}
 			if(!isP1PlayFlag&&!isP2PlayFlag) {
 				System.out.println("p1");
-				for(int i=0; i<p1DeckIndeck; i++) {
+				for(int i=0; i<p1DeckIndex; i++) {
 					System.out.println("Deck["+i+"] : " + cardshape[p1Deck[i]/13]+" "+cardNumber[p1Deck[i]%13]);
 				}
 
 				System.out.println("p2");
-				for(int i=0; i<p2DeckIndeck; i++) {
+				for(int i=0; i<p2DeckIndex; i++) {
 					System.out.println("Deck["+i+"] : " + cardshape[p2Deck[i]/13]+" "+cardNumber[p2Deck[i]%13]);
 				}
 			}
@@ -98,21 +98,28 @@ public class Blackjack {
 	}
 	
 	
-	static void displayP1Deck(){
-		System.out.println("p1");
-		for(int i=0; i<p1DeckIndeck; i++) {
-			System.out.println("Deck["+i+"] : " + cardshape[p1Deck[i]/13]+" "+cardNumber[p1Deck[i]%13]);
-		}
-	}
+//	static void p1Score() {
+//		for(int i=0;i<p1DeckIndex;i++) {
+//			if(p1Deck[i]%13==0) {
+//				p1Scoure+=11;//일단 A를 11으로 놓고 계산함
+//			}else if(p1Deck[i]%13<10) {//A~10
+//				p1Scoure+=p1Deck[i]%13+1;
+//			}else {
+//				p1Scoure+=10;
+//			} 
+//		}
+//	}
+//	
+//	static void p2Score() {
+//		for(int i=0;i<p2DeckIndex;i++) {
+//			if(p2Deck[i]%13==0) {
+//				p2Scoure+=11;//일단 A를 11으로 놓고 계산함
+//			}else if(p2Deck[i]%13<10) {//A~10
+//				p2Scoure+=p2Deck[i]%13+1;
+//			}else {
+//				p2Scoure+=10;
+//			} 
+//		}
+//	}
 	
-	static void displayP2Deck(){
-		System.out.println("p2");
-		for(int i=0; i<p2DeckIndeck; i++) {
-			System.out.println("Deck["+i+"] : " + cardshape[p2Deck[i]/13]+" "+cardNumber[p2Deck[i]%13]);
-		}
-	}
-	
-	static void p1Score() {
-		
-	}
 }

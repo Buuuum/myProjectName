@@ -68,7 +68,7 @@ public class Blackjack_Ex01 {
 						} 
 						if(p1Score>21) {
 							System.out.println("p1 점수 : " + p1Score);
-							System.out.println("p1 패");
+							System.out.println("\np1 패");
 							break;	
 						}
 					}
@@ -99,7 +99,7 @@ public class Blackjack_Ex01 {
 						} 
 						if(p2Score>21) {
 							System.out.println("p2 점수 : " + p2Score);
-							System.out.println("p2 패");
+							System.out.println("\np2 패");
 							break;	
 						}
 					}
@@ -119,7 +119,7 @@ public class Blackjack_Ex01 {
 				for(int i=0; i<p2DeckIndex; i++) {
 					System.out.println("Deck["+i+"] : " + cardshape[p2Deck[i]/13]+" "+cardNumber[p2Deck[i]%13]);
 				}
-				System.out.println("p2 점수 : " + p2Score);
+				System.out.println("p2 점수 : " + p2Score+"\n");
 				if(p1Score>21) {
 					System.out.println("p1이 이겼습니다");
 				}else if(p2Score>21) {

@@ -143,8 +143,26 @@ public class Java0329_Ex01 {
 	
 	
 	
+	
+	public static void gugudan(int dan) {
+		System.out.println("-----"+dan+"단-----");
+		for(int i=1; i<=9; i++) {
+			System.out.println(String.format("%d*%d : %d", dan, i, dan*i));
+		}
+	}
+	
+	
+	
 	public static void main(String[] args) {
 
+		
+		
+		
+		gugudan(3);
+		
+		
+		
+		
 //		Scanner sc = new Scanner(System.in);
 //		System.out.println("원:1, 사각형:2, 삼각형:3");
 //		System.out.print("어떤 도형의 넓이를 구할까요? : ");

@@ -1,4 +1,4 @@
-package com.human.ex02;
+package com.human.ex;
 
 
 //문제2)
@@ -46,7 +46,7 @@ class Car{
 
 
 
-public class Java0329_Ex01 {
+public class Java0330_Ex01 {
 
 	
 	

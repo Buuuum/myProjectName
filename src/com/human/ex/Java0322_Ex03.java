@@ -311,23 +311,23 @@ public class Java0322_Ex03 {
 		
 		
 //		문제17)
-		int[] arr = new int[100];
-		
-		for(int i=0; i<arr.length; i++) {
-			arr[i] = i;
-		}
-		for(int i=2; i<=50; i++) {
-			for(int j=i+1; i<arr.length; i++) {
-				if(j%i==0) {
-					arr[i] = 0;
-				}
-			}
-		}
-		for(int i=0; i<arr.length; i++) {
-			if(!(arr[i]==0)) {
-				System.out.print(arr[i]+" ");
-			}
-		}
+//		int[] arr = new int[100];
+//		
+//		for(int i=0; i<arr.length; i++) {
+//			arr[i] = i;
+//		}
+//		for(int i=2; i<=50; i++) {
+//			for(int j=i+1; i<arr.length; i++) {
+//				if(j%i==0) {
+//					arr[i] = 0;
+//				}
+//			}
+//		}
+//		for(int i=0; i<arr.length; i++) {
+//			if(!(arr[i]==0)) {
+//				System.out.print(arr[i]+" ");
+//			}
+//		}
 		
 
 

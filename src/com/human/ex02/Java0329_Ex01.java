@@ -2,22 +2,19 @@ package com.human.ex02;
 
 
 //문제2)
-//class Student{
-//	double kor = 0;
-//	double eng = 0;
-//	double math = 0;
-//	double result = 0;
-//	
-//	void sum(double kor, double eng, double math) {
-//		result  = kor + eng + math;
-//		System.out.println(result);
-//	}
-//	
-//	void avg(double kor, double eng, double math) {
-//		result  = (kor + eng + math)/3;
-//		System.out.println(result);
-//	}
-//}
+class Student{
+	int kor = 0;
+	int eng = 0;
+	int math = 0;
+	
+	static void sum(int kor, int eng, int math) {
+		System.out.println("총합 : "+(kor + eng + math));
+	}
+	
+	static void avg(int kor, int eng, int math) {
+		System.out.println("평균 : "+(kor + eng + math)/3);
+	}
+}
 
 
 
@@ -38,12 +35,12 @@ class Car{
 	
 	void speedUp() {
 		speed += 10;
-		System.out.println("차의 속도를 10 높임");
+//		System.out.println("차의 속도를 10 높임");
 	}
 	
 	void speedDown() {
 		speed -= 10;
-		System.out.println("차의 속도를 10 낮춤");
+//		System.out.println("차의 속도를 10 낮춤");
 	}
 }
 
@@ -54,17 +51,17 @@ public class Java0329_Ex01 {
 	
 	
 //		문제1)
-//		static double height = 0;
-//		static double weight = 0;
-//		
-//		
-//		static void area(double height, double weight) {
-//			System.out.println("넓이 : "+ height*weight);
-//		}
-//		
-//		static void periphery(double height, double weight) {
-//			System.out.println("둘레 : "+ (height*2+weight*2));
-//		}
+		static double height = 0;
+		static double weight = 0;
+		
+		
+		static void area(double height, double weight) {
+			System.out.println("넓이 : "+ height*weight);
+		}
+		
+		static void periphery(double height, double weight) {
+			System.out.println("둘레 : "+ (height*2+weight*2));
+		}
 		
 	
 	
@@ -76,13 +73,12 @@ public class Java0329_Ex01 {
 		
 	public static void main(String[] args) {
 		
-//		area(40, 20);
-//		periphery(20, 30);
+		area(40, 20);
+		periphery(20, 30);
 		
 		
-//		Student st = new Student();
-//		st.sum(70,80,50);
-		
+		Student.sum(70,80,50);
+		Student.avg(70, 80, 60);
 		
 		Car c1 = new Car("소나타");
 		c1.statement();

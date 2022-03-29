@@ -144,12 +144,13 @@ public class Java0329_Ex01 {
 	
 	
 	
-	public static void gugudan(int dan) {
-		System.out.println("-----"+dan+"단-----");
-		for(int i=1; i<=9; i++) {
-			System.out.println(String.format("%d*%d : %d", dan, i, dan*i));
-		}
-	}
+//	문제7)
+//	public static void gugudan(int dan) {
+//		System.out.println("-----"+dan+"단-----");
+//		for(int i=1; i<=9; i++) {
+//			System.out.println(String.format("%d*%d : %d", dan, i, dan*i));
+//		}
+//	}
 	
 	
 	
@@ -158,7 +159,7 @@ public class Java0329_Ex01 {
 		
 		
 		
-		gugudan(3);
+//		gugudan(3);
 		
 		
 		

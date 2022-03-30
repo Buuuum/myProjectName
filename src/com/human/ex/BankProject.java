@@ -43,7 +43,6 @@ public class BankProject {
 	public static void main(String[] args) {
 		
 		
-		
 		User[] userArray= new User[10];
 		int userCount = 0;
 		

@@ -1,6 +1,6 @@
 package com.human.ex;
 
-public class MyBank {
+public class Bank_Ex {
 
 	public static int account = 0;
 
@@ -8,7 +8,7 @@ public class MyBank {
 
 	public static void insert(int i) {
 
-		MyBank.account = MyBank.account + i;
+		Bank_Ex.account = Bank_Ex.account + i;
 
 	}
 
@@ -16,7 +16,7 @@ public class MyBank {
 
 	public static void withdraw(int i) {
 
-		MyBank.account = MyBank.account - i;
+		Bank_Ex.account = Bank_Ex.account - i;
 
 	}
 

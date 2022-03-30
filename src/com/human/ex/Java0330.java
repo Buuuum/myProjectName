@@ -46,7 +46,7 @@ class Car{
 
 
 
-public class Java0330_Ex01 {
+public class Java0330 {
 
 	
 	

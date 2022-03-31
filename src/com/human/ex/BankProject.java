@@ -47,16 +47,8 @@ public class BankProject {
 		int userCount = 0;
 		
 		userArray[userCount++] = new User(User.LOGIN_NOMAL_USER,"user1","user1",0);
-		userArray[userCount++] = new User(User.LOGIN_NOMAL_USER,"user2","user2",0);
-		userArray[userCount++] = new User(User.LOGIN_NOMAL_USER,"user3","user3",0);
-		userArray[userCount++] = new User(User.LOGIN_NOMAL_USER,"user4","user4",0);
 		userArray[userCount++] = new User(User.LOGIN_ADMIN_USER,"admin1","admin1",0);
-		userArray[userCount++] = new User(User.LOGIN_ADMIN_USER,"admin2","admin2",0);
 		
-		for(User i : userArray) {
-			System.out.println(i);
-		}
-
 		
 		String inputId = "";
 		String inputPw = "";
@@ -126,25 +118,39 @@ public class BankProject {
 						int menu = Integer.parseInt(new Scanner(System.in).nextLine());
 						switch (menu) {
 						case 1: 
-							System.out.println("추가할 ID 입력 >>");
-							String fId = new Scanner(System.in).nextLine();
-							System.out.println("PW 입력 >>");
-							String fPw = new Scanner(System.in).nextLine();
-							userArray[userCount++] = new User(User.LOGIN_ADMIN_USER, fId, fPw, 0);
-							System.out.println("ID가 추가되었습니다.");
+							System.out.println("일반사용자:1 관리자:2 추가 >>");
+							menu = Integer.parseInt(new Scanner(System.in).nextLine());
+							if(menu==1) {
+								System.out.println("추가할 ID 입력 >>");
+								String fId = new Scanner(System.in).nextLine();
+								System.out.println("PW 입력 >>");
+								String fPw = new Scanner(System.in).nextLine();
+								userArray[userCount++] = new User(User.LOGIN_NOMAL_USER, fId, fPw, 0);
+								System.out.println("일반사용자 ID가 추가되었습니다.");
+							}else if(menu==2) {
+								System.out.println("추가할 ID 입력 >>");
+								String fId = new Scanner(System.in).nextLine();
+								System.out.println("PW 입력 >>");
+								String fPw = new Scanner(System.in).nextLine();
+								userArray[userCount++] = new User(User.LOGIN_ADMIN_USER, fId, fPw, 0);
+								System.out.println("관리자 ID가 추가되었습니다.");
+							}else {
+								System.out.println("잘못 입력하셨습니다.");
+							}
 							break;
 						case 2: 
 							User findUser = null;
 							System.out.println("ID 입력 >>");
-							fId = new Scanner(System.in).nextLine();
+							String fId = new Scanner(System.in).nextLine();
 							System.out.println("PW 입력 >>");
-							fPw = new Scanner(System.in).nextLine();
+							String fPw = new Scanner(System.in).nextLine();
 							for(int i=0; i<userCount; i++) {
 								if(userArray[i].id.equals(fId)&&userArray[i].pw.equals(fPw)) {
 									findUser = userArray[i];
 									for(int j=i; j<userCount-1; j++) {
 										userArray[j] = userArray[j+1];
 									}
+									System.out.println("ID가 삭제되었습니다.");
 									userCount--;
 									break;
 								}

@@ -74,7 +74,7 @@ public class BankProject {
 //			User nowUser = userFind(inputId,userArray);
 			User nowUser = null;
 			for(int i=0; i<userCount; i++) {
-				if(nowUser.id.equals(inputId)&&nowUser.pw.equals(inputPw)) {
+				if(userArray[i].id.equals(inputId)&&userArray[i].pw.equals(inputPw)) {
 					nowUser = userArray[i];
 				}
 			}
@@ -99,7 +99,7 @@ public class BankProject {
 						case 2: 
 							System.out.println("얼마를 출금하시겠습니까? : ");
 							int withdraw = Integer.parseInt(new Scanner(System.in).nextLine());
-							if(nowUser.account>withdraw) {
+							if(nowUser.account>=withdraw) {
 								nowUser.account -= withdraw;
 								System.out.println("잔액 : "+nowUser.account);
 							}else {
@@ -151,7 +151,7 @@ public class BankProject {
 							}
 							break;
 						case 3: 
-							System.out.println("변경	전 ID 입력 >>");
+							System.out.println("변경 전 ID 입력 >>");
 							fId = new Scanner(System.in).nextLine();
 							System.out.println("변경 후 ID 입력 >>");
 							String newId = new Scanner(System.in).nextLine();
@@ -161,9 +161,9 @@ public class BankProject {
 							for(int i=0; i<userCount; i++) {
 								if(userArray[i].id.equals(fId)&&userArray[i].pw.equals(fPw)) {
 									userArray[i].id = newId;
+									System.out.println("ID가 변경되었습니다.");
 								}
 							}
-							System.out.println("ID가 변경되었습니다.");
 							break;
 						case 4: 
 							for(int i=0; i<userCount; i++) {

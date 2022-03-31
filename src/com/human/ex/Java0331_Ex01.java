@@ -37,9 +37,9 @@ class Circle {
 
 //문제2)
 class Student {
-	int kor = 0;
-	int eng = 0;
-	int math = 0;
+	int kor;
+	int eng;
+	int math;
 
 	static void sum(int kor, int eng, int math) {
 		System.out.println("총합 : " + (kor + eng + math));

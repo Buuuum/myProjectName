@@ -3,14 +3,14 @@ package com.human.ex;
 //문제1)
 class Rectangle {
 
-	double height;
-	double widght;
+	public double height;
+	public double widght;
 
-	void area(double height, double widght) {
+	public void area(double height, double widght) {
 		System.out.println("넓이 : " + height * widght);
 	}
 
-	void periphery(double height, double widght) {
+	public void periphery(double height, double widght) {
 		System.out.println("둘레 : " + (height * 2 + widght * 2));
 	}
 
@@ -20,14 +20,14 @@ class Rectangle {
 
 class Circle {
 	
-	final static double PI = 3.14;
-	double ridius;
+	public final static double PI = 3.14;
+	public double ridius;
 	
-	void area(double ridius) {
+	public void area(double ridius) {
 		System.out.println("넓이 : " + ridius * ridius * PI);
 	}
 
-	void periphery(double ridius) {
+	public void periphery(double ridius) {
 		System.out.println("둘레 : " + (ridius * 2 + PI));
 	}
 	
@@ -37,15 +37,15 @@ class Circle {
 
 //문제2)
 class Student {
-	int kor;
-	int eng;
-	int math;
+	public int kor;
+	public int eng;
+	public int math;
 
-	static void sum(int kor, int eng, int math) {
+	public static void sum(int kor, int eng, int math) {
 		System.out.println("총합 : " + (kor + eng + math));
 	}
 
-	static void avg(int kor, int eng, int math) {
+	public static void avg(int kor, int eng, int math) {
 		System.out.println("평균 : " + (kor + eng + math) / 3);
 	}
 }
@@ -55,24 +55,24 @@ class Student {
 //문제3)
 class Car {
 
-	String model;
-	int speed;
+	public String model;
+	public int speed;
 
 	public Car(String model) {
 		super();
 		this.model = model;
 	}
 
-	void statement() {
+	public void statement() {
 		System.out.println("현재 차종 : " + model + " 속력은 " + speed + " 입니다.");
 	}
 
-	void speedUp() {
+	public void speedUp() {
 		speed += 10;
 //		System.out.println("차의 속도를 10 높임");
 	}
 
-	void speedDown() {
+	public void speedDown() {
 		speed -= 10;
 //		System.out.println("차의 속도를 10 낮춤");
 	}
@@ -81,11 +81,11 @@ class Car {
 
 
 class CellPhone {
-	String myName;
-	String myPhoneNum;
-	String msg;
-	String opponentName;
-	String opponentPhoneNum;
+	public String myName;
+	public String myPhoneNum;
+	public String msg;
+	public String opponentName;
+	public String opponentPhoneNum;
 
 	public CellPhone(String myName, String myPhoneNum) {
 		super();
@@ -93,24 +93,24 @@ class CellPhone {
 		this.myPhoneNum = myPhoneNum;
 	}
 
-	void sendInput(String opponentName, String opponentPhoneNum, String msg) {
+	public void sendInput(String opponentName, String opponentPhoneNum, String msg) {
 		this.opponentName = opponentName;
 		this.opponentPhoneNum = opponentPhoneNum;
 		this.msg = msg;
 
 	}
 
-	void sendInput(String opponentName, String opponentPhoneNum) {
+	public void sendInput(String opponentName, String opponentPhoneNum) {
 		this.opponentName = opponentName;
 		this.opponentPhoneNum = opponentPhoneNum;
 	}
 
-	void sendMsgButton() {
+	public void sendMsgButton() {
 		System.out.println(String.format("%s(%s)님의 전화로 %s(%s)님에게 '%s'의 메세지를 보냈습니다.", myName, myPhoneNum, opponentName,
 				opponentPhoneNum, msg));
 	}
 
-	void sendButton() {
+	public void sendButton() {
 		System.out.println(
 				String.format("%s(%s)님의 전화로 %s(%s)님에게 전화를 걸었습니다.", myName, myPhoneNum, opponentName, opponentPhoneNum));
 	}

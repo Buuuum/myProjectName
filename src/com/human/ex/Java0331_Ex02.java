@@ -59,7 +59,8 @@ class AutoGear {
 		return speed;
 	}
 
-	public String setSpeed(int speed) {
+	public void setSpeed(int speed) {
+		this.speed = speed;
 		if(speed>=40) {
 			this.gear = "4단계";
 		}else if(speed>=30) {
@@ -69,11 +70,10 @@ class AutoGear {
 		}else if(speed>0) {
 			this.gear = "1단계";
 		}
-		this.speed = speed;
-		return "속도 : "+speed+" 기어 : "+gear;
+		System.out.println("속도 : " + speed + " 기어 : " + gear);
 	}
 	
-	public String getGear() {
+	public void getGear() {
 		if(speed>=40) {
 			this.gear = "4단계";
 		}else if(speed>=30) {
@@ -83,7 +83,7 @@ class AutoGear {
 		}else if(speed>0) {
 			this.gear = "1단계";
 		}
-		return gear;
+		System.out.println("기어 : " + gear);
 	}
 	
 //	public int speedUp() {
@@ -96,10 +96,6 @@ class AutoGear {
 //		return speed;
 //	}
 
-	@Override
-	public String toString() {
-		return "autoGear [speed=" + this.speed + ", gear=" + this.gear + "]";
-	}
 	
 	
 }
@@ -117,14 +113,13 @@ public class Java0331_Ex02 {
 //		tv.volUp(10);
 //		tv.nowChannel();
 //		tv.turnOff();
-//		tv.toString();
 		
 		
 		AutoGear auto = new AutoGear(10);
-		System.out.println(auto.getSpeed());
+		System.out.println("현재 속도 : " + auto.getSpeed());
 //		System.out.println(auto.speedUp());
-		System.out.println(auto.getGear());
-		System.out.println(auto.setSpeed(33));
+		auto.getGear();
+		auto.setSpeed(33);
 		
 		
 	}
